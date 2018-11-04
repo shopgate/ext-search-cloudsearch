@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "pipeline": {
+    "id": "shopgate.catalog.getSearchSuggestions.v1",
+    "public": true,
+    "input": [{"key": "searchPhrase", "id": "1"}],
+    "output": [{"key": "suggestions", "id": "1000"}],
+    "steps": [
+      {
+        "type": "extension",
+        "id": "@shopgate/search-cloudsearch",
+        "path": "@shopgate/search-cloudsearch/steps/getSearchSuggestions.js",
+        "input": [{"key": "searchPhrase", "id": "1"}],
+        "output": [{"key": "suggestions", "id": "1000"}]
+      }
+    ]
+  }
+}

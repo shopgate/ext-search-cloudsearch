@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "id": "@shopgate/search-cloudsearch",
+  "components": [
+  ],
+  "configuration": {
+    "languageId": {
+      "type": "bigApi",
+      "destination" : "backend",
+      "params": {
+        "method" : "GET",
+        "service" : "shop",
+        "path" : "/v1/%(shopId)s",
+        "key" : "languageId"
+      }
+    },
+    "shopNumber": {
+      "type": "static",
+      "destination": "backend",
+      "params": {
+        "value": "%(shopId)s"
+      }
+    },
+    "cloudsearchUrls": {
+      "type": "static",
+      "destination": "backend",
+      "params": {
+        "value": {
+          "de": "https://search-shopgate-items-de-hdxp45pgwwdvd4umvpq36rejwe.eu-west-1.cloudsearch.amazonaws.com/2013-01-01/search",
+          "en": "https://search-shopgate-items-en-qj4xjcc45jah5zdcxwoqbriivi.eu-west-1.cloudsearch.amazonaws.com/2013-01-01/search"
+        }
+      }
+    }
+  }
+}

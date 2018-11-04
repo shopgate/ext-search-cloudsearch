@@ -1,0 +1,133 @@
+{
+  "version": "1",
+  "pipeline": {
+    "id": "shopgate.catalog.getFilters.v1",
+    "input": [
+      {
+        "id": "1",
+        "key": "categoryId",
+        "optional": true
+      },
+      {
+        "id": "2",
+        "key": "searchPhrase",
+        "optional": true
+      },
+      {
+        "id": "3",
+        "key": "filters",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "id": "@shopgate/products",
+        "path": "@shopgate/products/categories/getCategory.js",
+        "type": "extension",
+        "input": [
+          {
+            "id": "1",
+            "key": "categoryId",
+            "optional": true
+          }
+        ],
+        "output": [
+          {
+            "id": "10",
+            "key": "service"
+          },
+          {
+            "id": "11",
+            "key": "version"
+          },
+          {
+            "id": "12",
+            "key": "path"
+          },
+          {
+            "id": "13",
+            "key": "method"
+          }
+        ]
+      },
+      {
+        "type": "conditional",
+        "input": [
+          {
+            "id": "1",
+            "key": "categoryId",
+            "optional": true
+          }
+        ],
+        "expression": {
+          "ok": [{ "name": "categoryId" }]
+        },
+        "then": {
+          "id": "@shopgate/bigapi",
+          "path": "@shopgate/bigapi/big-api/getBigApiResult.js",
+          "type": "extension",
+          "input": [
+            {
+              "id": "10",
+              "key": "service"
+            },
+            {
+              "id": "11",
+              "key": "version"
+            },
+            {
+              "id": "12",
+              "key": "path"
+            },
+            {
+              "id": "13",
+              "key": "method"
+            }
+          ],
+          "output": [
+            {
+              "id": "20",
+              "key": "path",
+              "optional": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "extension",
+        "id": "@shopgate/search-cloudsearch",
+        "path": "@shopgate/search-cloudsearch/steps/getFilters.js",
+        "input": [
+          {
+            "id": "2",
+            "key": "searchPhrase",
+            "optional": true
+          },
+          {
+            "id": "3",
+            "key": "filters",
+            "optional": true
+          },
+          {
+            "id": "20",
+            "key": "categoryPath",
+            "optional": true
+          }
+        ],
+        "output": [
+          {
+            "id": "1000",
+            "key": "filters"
+          }
+        ]
+      }
+    ],
+    "output": [
+      {
+        "id": "1000",
+        "key": "filters"
+      }
+    ],
+    "public": true
+  }
+}

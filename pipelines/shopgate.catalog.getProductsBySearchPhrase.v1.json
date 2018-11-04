@@ -1,0 +1,132 @@
+{
+  "version": "1",
+  "pipeline": {
+    "id": "shopgate.catalog.getProductsBySearchPhrase.v1",
+    "public": true,
+    "input": [
+      {
+        "id": "1",
+        "key": "offset",
+        "optional": true
+      },
+      {
+        "id": "2",
+        "key": "limit",
+        "optional": true
+      },
+      {
+        "id": "3",
+        "key": "sort",
+        "optional": true
+      },
+      {
+        "id": "4",
+        "key": "searchPhrase"
+      },
+      {
+        "id": "8",
+        "key": "skipHighlightLoading",
+        "optional": true
+      },
+      {
+        "id": "9",
+        "key": "skipLiveshoppingLoading",
+        "optional": true
+      },
+      {
+        "id": "15",
+        "key": "showInactive",
+        "optional": true
+      },
+      {
+        "id": "750",
+        "key": "sgxsMeta"
+      }
+    ],
+    "output": [
+      {
+        "id": "1000",
+        "key": "totalProductCount"
+      },
+      {
+        "id": "100",
+        "key": "products"
+      }
+    ],
+    "steps": [
+      {
+        "type": "extension",
+        "id": "@shopgate/search-cloudsearch",
+        "path": "@shopgate/search-cloudsearch/steps/search.js",
+        "input": [
+          {
+            "id": "1",
+            "key": "offset",
+            "optional": true
+          },
+          {
+            "id": "2",
+            "key": "limit",
+            "optional": true
+          },
+          {
+            "id": "3",
+            "key": "sort",
+            "optional": true
+          },
+          {
+            "id": "4",
+            "key": "searchPhrase"
+          }
+        ],
+        "output": [
+          {
+            "id": "10",
+            "key": "productIds"
+          },
+          {
+            "id": "1000",
+            "key": "totalProductCount"
+          }
+        ]
+      },
+      {
+        "type": "pipeline",
+        "id": "shopgate.catalog.getProducts.v1",
+        "input": [
+          {
+            "id": "10",
+            "key": "productIds",
+            "optional": true
+          },
+          {
+            "id": "8",
+            "key": "skipHighlightLoading",
+            "optional": true
+          },
+          {
+            "id": "9",
+            "key": "skipLiveshoppingLoading",
+            "optional": true
+          },
+          {
+            "id": "15",
+            "key": "showInactive",
+            "optional": true
+          },
+          {
+            "id": "750",
+            "key": "sgxsMeta"
+          }
+        ],
+        "output": [
+          {
+            "id": "100",
+            "key": "products"
+          }
+        ]
+      }
+    ]
+  }
+}
+
