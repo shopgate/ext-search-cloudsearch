@@ -1,0 +1,1161 @@
+{
+    "totalProductCount": 168,
+    "products": [
+        {
+            "id": "1044",
+            "name": "Product Mix",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-mixxed.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1044\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "984"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 2,
+                "average": 70,
+                "reviewCount": 2
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "e80c3e11eb0490a94b713218bc27cea1",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/ecfbd137c0e4426fa87e3da24b203a944622adec2cafaedfc1fb24402ad105c0",
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 19.99,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 19.99,
+                "unitPriceWithTax": 19.99,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1020",
+            "name": "Product with child 6 Mother",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1020\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/c53ebbe3f556fe0e7b93b2672b60e31f545e2a69029b7d0de1a9f3b81f80ed64",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "959",
+            "name": "Product with child 2 Mother",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-2-mother.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"959\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "1230123012304545"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "fcddb7bbcd24bcd12eb806bc1653640c",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/61fe215bfd100ff3da97768562b4e75a4443922dec2a10b2567bea52d73b3ea9",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 154,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 154,
+                "unitPriceWithTax": 154,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1039",
+            "name": "Product with child 7 Mother",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-7-mother.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1039\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "0147852369"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "4db66874fc03f0f63c13900f1e0b22ba",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/4f82ce7f30ab01cf5e1afbcbc52ddfc3b9eb9718b78f7db64f39a24b264174e4",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 59,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 59,
+                "unitPriceWithTax": 59,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1106",
+            "name": "attribute product with options",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/attribute-product-with-options.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1106\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "121143546"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": true
+            },
+            "internalLog": "b4ee85ebcf07d3cb011110883dd45769",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 10,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 10,
+                "unitPriceWithTax": 10,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1070",
+            "name": "Product with many attribute values",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-many-attribute-values-20.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1070\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "12354564684354654564"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "413b5e0c4dbcc9f2d577e8e4aadc1c9a",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/dbbbd6c10bab2c4f8e9698b541ae0d6c486423927f9479dc97a9f5a869839645",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 220,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 220,
+                "unitPriceWithTax": 220,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1065",
+            "name": "Product Mix 2",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-mix2.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1065\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "983"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 1,
+                "average": 90,
+                "reviewCount": 1
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "b5523a5bce7baa7cf8a490fc809b0030",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 25,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 25,
+                "unitPriceWithTax": 25,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1117",
+            "name": "Product with different priced attributes",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-different-priced-attributes.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1117\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "29038098298230984"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "83a43dc91d7094134e38c37b94f39736",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/b4e3410bd7181efeef6f19a863a04b72aba8134a4a93dcf3e633e9ee696104d1",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 10,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 10,
+                "unitPriceMax": 20,
+                "unitPriceNet": 10,
+                "unitPriceWithTax": 10,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "932",
+            "name": "Product with rating 1",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-rating-1.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"932\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "994"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 1,
+                "average": 100,
+                "reviewCount": 1
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "d8c9607a3d20bb2c46f1473e50e4d43b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/17a6ac9f4803681238be5ee5c217ad36ae1542d9b1b97cde141d4c9700a76e65",
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 150,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 150,
+                "unitPriceWithTax": 150,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "938",
+            "name": "Product with rating 2",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-rating-2.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"938\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "993"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 1,
+                "average": 80,
+                "reviewCount": 1
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "d8c9607a3d20bb2c46f1473e50e4d43b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/ea78182a155e2436fbd6a06cab5ba92ad4db367ed36ac545c7923877129ddcde",
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 150,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 150,
+                "unitPriceWithTax": 150,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "939",
+            "name": "Product with rating 3",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-rating-3.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"939\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "992"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 1,
+                "average": 40,
+                "reviewCount": 1
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "d8c9607a3d20bb2c46f1473e50e4d43b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/bfb8e8c3367e52c23cb343b2803ff983a34f8c6ce0378db90b2a86204d6b1bca",
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 150,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 150,
+                "unitPriceWithTax": 150,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "940",
+            "name": "Product with rating 4",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-rating-4.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"940\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "991"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 1,
+                "average": 100,
+                "reviewCount": 1
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "d8c9607a3d20bb2c46f1473e50e4d43b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/581da3d9e3c77f9d1dccf73d7134f2fb19304caf7dd437ce96fe78b839b405a3",
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 150,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 150,
+                "unitPriceWithTax": 150,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "942",
+            "name": "Product without rating",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-rating-5.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"942\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "990"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "d8c9607a3d20bb2c46f1473e50e4d43b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/5c60c9d7442f313559853d825406ab1729f0208421d2ba682a3191287666a1f0",
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 150,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 150,
+                "unitPriceWithTax": 150,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1067",
+            "name": "Product with manufacture prop",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-manufacture-prob.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1067\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "supa dupa Company",
+            "identifiers": {
+                "sku": "123361454848745435144"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "6ad95397213670cc6e3f680097f828ee",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/3a1ef40231ec3077140d3de864cba52e6806874f9216166837b802c5f0206e31",
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 5,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 5,
+                "unitPriceWithTax": 5,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "969",
+            "name": "Product with child 1 Mother( 6 images)",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-1-mother.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"969\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "0133012301230"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "ac56d734ba7eb82f241c63077d5e740a",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/1f027eb7baeeca31ca6187cc9166fdb5866e89fbd1ce46cafed44d409ebc8cbb",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 70,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 70,
+                "unitPriceWithTax": 70,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1104",
+            "name": "product with tier price",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-tier-price.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1104\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "012001212"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "2387c02d02f25eb1ff55325aff901078",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 12,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 8,
+                "unitPriceMax": 12,
+                "unitPriceNet": 12,
+                "unitPriceWithTax": 12,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [
+                    {
+                        "from": 1,
+                        "to": 1,
+                        "unitPrice": 12
+                    },
+                    {
+                        "from": 2,
+                        "to": 3,
+                        "unitPrice": 10
+                    },
+                    {
+                        "from": 4,
+                        "to": null,
+                        "unitPrice": 8
+                    }
+                ],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "983",
+            "name": "Product with child 3 Mother - 3 Attributes",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-3-mother-3-attributes.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"983\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "012301231454"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "58b67e18169d9d8a3cabecff83a66a31",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/e4c71988e1fcf9da4becb8d4257cbc227e4fe8a527a55eee9f71fd5eb3cbb1a3",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 120,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 120,
+                "unitPriceWithTax": 120,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1013",
+            "name": "Product with child 5 Mother 2 Attributes",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-5-mother-2-attributes.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1013\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "0113565654487845454"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "b49db3586fd8fead58b4eaea4e32620b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/4b2a0a75e4de15e23f52605d310adbda4ac2fef74c52ac339640fcb388a91eb9",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 32,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 32,
+                "unitPriceWithTax": 32,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1043",
+            "name": "Product with child 8 Mother - 3 Attributes",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-8-mother-3-attributes.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1043\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "123456"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "c2fd21fc17cb4de1cf24de207e728f57",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/9f7fa663cd16c1fd1a6ffbfb51ec6b5ddd3515157c28b0aa08c5a2f635607db0",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 87,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 87,
+                "unitPriceWithTax": 87,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1051",
+            "name": "Product with child 9 Mother - 3 Attributes",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-9-mother-3-attributes.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1051\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "0108123982980238984127493827"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "7120274a3e0bdf5b5223d0b75a0cdb6c",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/d722d5c6cbac047547fef5c9485cb7747435397d6cfd30bce5dd18391fe6e97c",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 105.99,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 105.99,
+                "unitPriceWithTax": 105.99,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        }
+    ]
+}

@@ -1,0 +1,518 @@
+{
+  "totalProductCount": 9,
+  "products": [
+      {
+          "id": "1003",
+          "name": "Product with child 4 Mother - 3 Attributes -Black-10\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-black-10-mcronalds-aloe.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1003\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Black-10\"-mcRonalds-Aloe"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 13,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1004",
+          "name": "Product with child 4 Mother - 3 Attributes -Black-15\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-black-15-mcronalds-aloe.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1004\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Black-15\"-mcRonalds-Aloe"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 17,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1005",
+          "name": "Product with child 4 Mother - 3 Attributes -Black-19\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-black-19-mcronalds-aloe.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1005\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Black-19\"-mcRonalds-Aloe"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 16,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1006",
+          "name": "Product with child 4 Mother - 3 Attributes -Blue-10\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-blue-10-mcronalds-aloe.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1006\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Blue-10\"-mcRonalds-Aloe"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1007",
+          "name": "Product with child 4 Mother - 3 Attributes -Brown-10\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-brown-10-mcronalds-aloe.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1007\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Brown-10\"-mcRonalds-Aloe"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 19,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1008",
+          "name": "Product with child 4 Mother - 3 Attributes -Blue-10\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-blue-10-mcronalds-aloe-1018.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1008\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "1234667894545"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1009",
+          "name": "Product with child 4 Mother - 3 Attributes -Blue-10\"-mcRonalds-Cashmere",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-blue-10-mcronalds-cashmere.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1009\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "12346678945454545"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1010",
+          "name": "Product with child 4 Mother - 3 Attributes -Blue-15\"-mcRonalds-Crystal",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-blue-15-mcronalds-crystal.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1010\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Blue-15\"-mcRonalds-Crystal"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "948",
+          "name": "Product with many properties - 1 -",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-many-properties-1.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"948\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "989"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "342e8dbe408044cdc32b141fe9fdc736",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/e36e08606b7a9f3783072ce7266d0f42918e1caa0e9261e768e373262046ed17",
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 10,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 10,
+              "unitPriceWithTax": 10,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      }
+  ]
+}

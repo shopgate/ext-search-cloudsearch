@@ -4,8 +4,9 @@
   "description": "",
   "license": "Apache-2.0",
   "scripts": {
-    "test": "mocha --recursive test",
-    "cover": "nyc --reporter=html mocha --recursive test"
+    "test": "mocha --recursive test/unit",
+    "cover": "nyc --reporter=html mocha --recursive test/unit",
+    "integration": "mocha --timeout 5000 --use_strict --recursive test/integration"
   },
   "devDependencies": {
     "mocha": "^5.2.0",

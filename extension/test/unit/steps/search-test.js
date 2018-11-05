@@ -46,7 +46,7 @@ describe('steps/search', () => {
     assert.deepStrictEqual(result, { foo: 'bar' })
     assert.deepStrictEqual(MockQueryBuilder.prototype.setSearchTerm.getCall(0).args, ['Men'])
     assert.deepStrictEqual(MockQueryBuilder.prototype.setSort.getCall(0).args, ['priceAsc'])
-    assert.deepStrictEqual(MockQueryBuilder.prototype.setPagination.getCall(0).args, [0, 25])
+    assert.deepStrictEqual(MockQueryBuilder.prototype.setPagination.getCall(0).args, [0, 20])
     assert.equal(MockInvoker.prototype.search.callCount, 1)
 
     assert.deepStrictEqual(

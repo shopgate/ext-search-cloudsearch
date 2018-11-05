@@ -1,4 +1,5 @@
 const xregexp = require('xregexp')
+const Requester = require('../cloudsearch/Requester')
 
 const TIMEOUT = 700 // 700ms timeout for cloudsearch (had some issued with 500)
 const regexCleanRaw = '[^\\pN\\p{Ll}\\p{Lu}\\p{Lt}\\p{Lo}\\-\\.\\| ]'
@@ -36,8 +37,8 @@ const baseSearchParams = {
 module.exports = function (context, input, cb) {
   if (input.searchPhrase.length < 2) return cb(null, { suggestions: [] })
 
-  const configKey = context.config.languageId.startsWith('de-') ? 'cloudsearch-de' : 'cloudsearch-en'
-  const cloudsearchUrl = context.config[configKey]
+  const requester = new Requester(context.config.cloudsearchUrls)
+  const cloudsearchUrl = requester.getUrl(context.config.languageId)
   const shopNumber = context.meta.appId.split('_')[1]
 
   const suggestQuery = input.searchPhrase
@@ -50,7 +51,7 @@ module.exports = function (context, input, cb) {
 
   context.log.debug({ options }, 'sending cloudsearch request')
 
-  context.tracedRequest(`Cloudsearch:${configKey}`)(options, (err, result, body) => {
+  context.tracedRequest(`Cloudsearch`)(options, (err, result, body) => {
     if (err) return cb(err)
 
     if (result.statusCode !== 200) return cb(new Error(body.message || body || 'unknown error'))

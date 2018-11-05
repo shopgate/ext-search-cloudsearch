@@ -1,0 +1,1715 @@
+{
+    "totalProductCount": 115,
+    "products": [
+        {
+            "id": "1013",
+            "name": "Product with child 5 Mother 2 Attributes",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-5-mother-2-attributes.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1013\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "0113565654487845454"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "b49db3586fd8fead58b4eaea4e32620b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/4b2a0a75e4de15e23f52605d310adbda4ac2fef74c52ac339640fcb388a91eb9",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 32,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 32,
+                "unitPriceWithTax": 32,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1014",
+            "name": "Product with child 5 Mother 2 Attributes-Black-0",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-5-mother-2-attributes-black-0.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1014\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "0113565654487845454-Black-0"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 20,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "b49db3586fd8fead58b4eaea4e32620b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 32,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 32,
+                "unitPriceWithTax": 32,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1015",
+            "name": "Product with child 5 Mother 2 Attributes-Black-11",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-5-mother-2-attributes-black-11.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1015\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "0113565654487845454-Black-11"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 20,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "b49db3586fd8fead58b4eaea4e32620b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 32,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 32,
+                "unitPriceWithTax": 32,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1016",
+            "name": "Product with child 5 Mother 2 Attributes-Black-7",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-5-mother-2-attributes-black-7.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1016\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "0113565654487845454-Black-7"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 18,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "b49db3586fd8fead58b4eaea4e32620b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 32,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 32,
+                "unitPriceWithTax": 32,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1017",
+            "name": "Product with child 5 Mother 2 Attributes-Blue-0",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-5-mother-2-attributes-blue-0.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1017\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "0113565654487845454-Blue-0"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 20,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "b49db3586fd8fead58b4eaea4e32620b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 32,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 32,
+                "unitPriceWithTax": 32,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1018",
+            "name": "Product with child 5 Mother 2 Attributes-Blue-11",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-5-mother-2-attributes-blue-11.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1018\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "0113565654487845454-Blue-11"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 20,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "b49db3586fd8fead58b4eaea4e32620b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 32,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 32,
+                "unitPriceWithTax": 32,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1019",
+            "name": "Product with child 5 Mother 2 Attributes-Blue-7",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-5-mother-2-attributes-blue-7.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1019\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "0113565654487845454-Blue-7"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 20,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "b49db3586fd8fead58b4eaea4e32620b",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 32,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 32,
+                "unitPriceWithTax": 32,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "909",
+            "name": "Product Mix 3 with 123 characters in a very very very very very very very very very very very very very very long name -3-",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/this-is-a-product-with-a-very-very-long-name-3.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"909\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "12357843"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "16864508715985a61fcf7d25e3c9becf",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/315edef2867edf1da0f8b902824aae7aef377c9b2966984f545514aa5b34ff2b",
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 35,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 35,
+                "unitPriceWithTax": 35,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1020",
+            "name": "Product with child 6 Mother",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1020\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": true,
+                "quantity": 0,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": true,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/c53ebbe3f556fe0e7b93b2672b60e31f545e2a69029b7d0de1a9f3b81f80ed64",
+            "type": "parent",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1021",
+            "name": "Product with child 6 Mother-Black-0",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-black-0.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1021\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Black-0"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1022",
+            "name": "Product with child 6 Mother-Black-11",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-black-11.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1022\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Black-11"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1023",
+            "name": "Product with child 6 Mother-Black-7",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-black-7.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1023\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Black-7"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1024",
+            "name": "Product with child 6 Mother-Blue-0",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-blue-0.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1024\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Blue-0"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1025",
+            "name": "Product with child 6 Mother-Blue-11",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-blue-11.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1025\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Blue-11"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1026",
+            "name": "Product with child 6 Mother-Blue-7",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-blue-7.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1026\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Blue-7"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1027",
+            "name": "Product with child 6 Mother-Brown-0",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-brown-0.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1027\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Brown-0"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1028",
+            "name": "Product with child 6 Mother-Brown-11",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-brown-11.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1028\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Brown-11"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1029",
+            "name": "Product with child 6 Mother-Brown-7",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-brown-7.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1029\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Brown-7"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 27,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1030",
+            "name": "Product with child 6 Mother-Charcoal-0",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-charcoal-0.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1030\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Charcoal-0"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1031",
+            "name": "Product with child 6 Mother-Charcoal-11",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-charcoal-11.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1031\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Charcoal-11"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 28,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1032",
+            "name": "Product with child 6 Mother-Charcoal-7",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-charcoal-7.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1032\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Charcoal-7"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1033",
+            "name": "Product with child 6 Mother-Green-0",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-green-0.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1033\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Green-0"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1034",
+            "name": "Product with child 6 Mother-Green-11",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-green-11.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1034\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Green-11"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1035",
+            "name": "Product with child 6 Mother-Green-7",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-green-7.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1035\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Green-7"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1036",
+            "name": "Product with child 6 Mother-Grey-0",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-grey-0.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1036\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Grey-0"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1037",
+            "name": "Product with child 6 Mother-Grey-11",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-grey-11.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1037\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Grey-11"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "1038",
+            "name": "Product with child 6 Mother-Grey-7",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-6-mother-grey-7.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1038\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "789456123457851258-Grey-7"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 30,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "a610bccd7cb00d32854fa43046b2abbd",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": null,
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 46,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 46,
+                "unitPriceWithTax": 46,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "941",
+            "name": "Product with different availability and shipping costs -1-",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-different-availability-and-shipping-costs-1.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"941\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "555551"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 12,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "5f7692541b635d51a216f4b516aa515c",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/190361606ea8d5c42ac8e4fc010ec1b78a57e7d22c5a4cf8de00be3d808a34fc",
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 50,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 50,
+                "unitPriceWithTax": 50,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "943",
+            "name": "Product with different availability and shipping costs -2-",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-different-availability-and-shipping-costs-2.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"943\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "555552"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 7,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "41f8a521496c25f56d136b8d2edcb345",
+            "baseProductId": null,
+            "availability": {
+                "text": "In stock",
+                "state": "ok"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/64db74203d25c6385824a63933b559cdc88ed1a797f965170b997856989445ec",
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 50,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 50,
+                "unitPriceWithTax": 50,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        },
+        {
+            "id": "944",
+            "name": "Product with different availability and shipping costs -3-",
+            "active": true,
+            "description": "",
+            "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-different-availability-and-shipping-costs-3.html",
+            "customData": "{\"store_view_id\":\"1\",\"product_id\":\"944\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+            "manufacturer": "",
+            "identifiers": {
+                "sku": "555553"
+            },
+            "tags": [],
+            "ageRating": 0,
+            "stock": {
+                "ignoreQuantity": false,
+                "quantity": 2,
+                "info": "In stock",
+                "orderable": true,
+                "minOrderQuantity": 1,
+                "maxOrderQuantity": 10000
+            },
+            "rating": {
+                "count": 0,
+                "average": 0,
+                "reviewCount": 0
+            },
+            "flags": {
+                "hasChildren": false,
+                "hasVariants": false,
+                "hasOptions": false
+            },
+            "internalLog": "9ea1fc2cb3a1bb0629edc7d0356cf01f",
+            "baseProductId": null,
+            "availability": {
+                "text": "Nur noch 2 verfügbar",
+                "state": "warning"
+            },
+            "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/05ade25a1a1a5fd1d8d30eda91a68a810871197276190155c58353874d6eb007",
+            "type": "simple",
+            "price": {
+                "currency": "EUR",
+                "info": "",
+                "unitPrice": 50,
+                "unitPriceStriked": 0,
+                "unitPriceMin": 0,
+                "unitPriceMax": 0,
+                "unitPriceNet": 50,
+                "unitPriceWithTax": 50,
+                "taxAmount": 0,
+                "taxPercent": 0,
+                "msrp": 0,
+                "tiers": [],
+                "discount": 0
+            },
+            "highlight": false,
+            "liveshoppings": []
+        }
+    ]
+}

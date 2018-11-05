@@ -1,0 +1,1165 @@
+{
+  "filters": [
+      {
+          "id": "display_amount",
+          "label": "Preis",
+          "type": "range",
+          "minimum": 1,
+          "maximum": 93900
+      },
+      {
+          "id": "categories",
+          "label": "Kategorie",
+          "type": "multiselect",
+          "source": "categories",
+          "values": [
+              {
+                  "id": "4. all products",
+                  "label": "4. all products",
+                  "hits": 135
+              },
+              {
+                  "id": "1 Basic products",
+                  "label": "1 Basic products",
+                  "hits": 40
+              },
+              {
+                  "id": "3. all simple products",
+                  "label": "3. all simple products",
+                  "hits": 37
+              },
+              {
+                  "id": "2. Product variants",
+                  "label": "2. Product variants",
+                  "hits": 10
+              },
+              {
+                  "id": "2. Product variants=>2.1 Product with child - 2 attributes",
+                  "label": "2. Product variants » 2.1 Product with child - 2 attributes",
+                  "hits": 6
+              },
+              {
+                  "id": "1 Basic products=>1.1 Products with long names",
+                  "label": "1 Basic products » 1.1 Products with long names",
+                  "hits": 5
+              },
+              {
+                  "id": "1 Basic products=>1.2 Product with/without strike price.",
+                  "label": "1 Basic products » 1.2 Product with/without strike price.",
+                  "hits": 5
+              },
+              {
+                  "id": "1 Basic products=>1.4 Product with/ without pictures",
+                  "label": "1 Basic products » 1.4 Product with/ without pictures",
+                  "hits": 5
+              },
+              {
+                  "id": "1 Basic products=>1.5 Product with/ without ratings",
+                  "label": "1 Basic products » 1.5 Product with/ without ratings",
+                  "hits": 5
+              },
+              {
+                  "id": "1 Basic products=>1.7 Product with stock and shipping prices",
+                  "label": "1 Basic products » 1.7 Product with stock and shipping prices",
+                  "hits": 5
+              },
+              {
+                  "id": "1 Basic products=>1.8 Products with properties",
+                  "label": "1 Basic products » 1.8 Products with properties",
+                  "hits": 5
+              },
+              {
+                  "id": "1 Basic products=>1.3 Product with/without base price",
+                  "label": "1 Basic products » 1.3 Product with/without base price",
+                  "hits": 4
+              },
+              {
+                  "id": "2. Product variants=>2.2 Product with child - 3 attributes",
+                  "label": "2. Product variants » 2.2 Product with child - 3 attributes",
+                  "hits": 4
+              },
+              {
+                  "id": "1 Basic products=>1.10 Products manufacture prop",
+                  "label": "1 Basic products » 1.10 Products manufacture prop",
+                  "hits": 3
+              },
+              {
+                  "id": "1 Basic products=>1.6 Product with long description",
+                  "label": "1 Basic products » 1.6 Product with long description",
+                  "hits": 3
+              },
+              {
+                  "id": "1 Basic products=>1.9 Mix products",
+                  "label": "1 Basic products » 1.9 Mix products",
+                  "hits": 3
+              },
+              {
+                  "id": "1 Basic products=>1.11 Products with tier price & Customer group",
+                  "label": "1 Basic products » 1.11 Products with tier price & Customer group",
+                  "hits": 2
+              },
+              {
+                  "id": "5. Products with options",
+                  "label": "5. Products with options",
+                  "hits": 2
+              },
+              {
+                  "id": "2. Product variants=>2.4 Product with different attribute prices",
+                  "label": "2. Product variants » 2.4 Product with different attribute prices",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "manufacturer",
+          "label": "Marke",
+          "type": "multiselect",
+          "source": "manufacturer",
+          "values": [
+              {
+                  "id": "kungBirgers",
+                  "label": "kungBirgers",
+                  "hits": 2
+              },
+              {
+                  "id": "mcRonalds",
+                  "label": "mcRonalds",
+                  "hits": 9
+              },
+              {
+                  "id": "supa dupa Company",
+                  "label": "supa dupa Company",
+                  "hits": 1
+              },
+              {
+                  "id": "supa dupa supa dupa Company",
+                  "label": "supa dupa supa dupa Company",
+                  "hits": 1
+              },
+              {
+                  "id": "supa dupa supa dupa supa dupa supa dupa supa dupa Company",
+                  "label": "supa dupa supa dupa supa dupa supa dupa supa dupa Company",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Accessories Size",
+          "label": "Accessories Size",
+          "type": "multiselect",
+          "source": "attributes",
+          "values": [
+              {
+                  "id": "L",
+                  "label": "L",
+                  "hits": 1
+              },
+              {
+                  "id": "S",
+                  "label": "S",
+                  "hits": 1
+              },
+              {
+                  "id": "XL",
+                  "label": "XL",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Author/Artist",
+          "label": "Author/Artist",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "hans hannsen",
+                  "label": "hans hannsen",
+                  "hits": 3
+              }
+          ]
+      },
+      {
+          "id": "Ball color",
+          "label": "Ball color",
+          "type": "multiselect",
+          "source": "options",
+          "values": [
+              {
+                  "id": "Green Ball",
+                  "label": "Green Ball",
+                  "hits": 1
+              },
+              {
+                  "id": "Invisible Ball",
+                  "label": "Invisible Ball",
+                  "hits": 1
+              },
+              {
+                  "id": "magic ball",
+                  "label": "magic ball",
+                  "hits": 1
+              },
+              {
+                  "id": "Red Ball",
+                  "label": "Red Ball",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Battery Type",
+          "label": "Battery Type",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "AA",
+                  "label": "AA",
+                  "hits": 1
+              },
+              {
+                  "id": "AAA",
+                  "label": "AAA",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Camera Megapixels",
+          "label": "Camera Megapixels",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "12-13.9MP",
+                  "label": "12-13.9MP",
+                  "hits": 1
+              },
+              {
+                  "id": "14-17.9MP",
+                  "label": "14-17.9MP",
+                  "hits": 1
+              },
+              {
+                  "id": "No",
+                  "label": "No",
+                  "hits": 3
+              }
+          ]
+      },
+      {
+          "id": "Camera Type",
+          "label": "Camera Type",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "Compact",
+                  "label": "Compact",
+                  "hits": 1
+              },
+              {
+                  "id": "Digital SLRs",
+                  "label": "Digital SLRs",
+                  "hits": 1
+              },
+              {
+                  "id": "No",
+                  "label": "No",
+                  "hits": 3
+              }
+          ]
+      },
+      {
+          "id": "Color",
+          "label": "Color",
+          "type": "multiselect",
+          "source": "attributes",
+          "values": [
+              {
+                  "id": "Black",
+                  "label": "Black",
+                  "hits": 11
+              },
+              {
+                  "id": "Blue",
+                  "label": "Blue",
+                  "hits": 8
+              },
+              {
+                  "id": "Brown",
+                  "label": "Brown",
+                  "hits": 3
+              },
+              {
+                  "id": "Charcoal",
+                  "label": "Charcoal",
+                  "hits": 3
+              },
+              {
+                  "id": "Cognac",
+                  "label": "Cognac",
+                  "hits": 1
+              },
+              {
+                  "id": "Dark Chocolate",
+                  "label": "Dark Chocolate",
+                  "hits": 2
+              },
+              {
+                  "id": "Eucalyptus",
+                  "label": "Eucalyptus",
+                  "hits": 1
+              },
+              {
+                  "id": "Gold Fusion",
+                  "label": "Gold Fusion",
+                  "hits": 1
+              },
+              {
+                  "id": "Green",
+                  "label": "Green",
+                  "hits": 1
+              },
+              {
+                  "id": "Grey",
+                  "label": "Grey",
+                  "hits": 1
+              },
+              {
+                  "id": "Indigo",
+                  "label": "Indigo",
+                  "hits": 1
+              },
+              {
+                  "id": "Iron",
+                  "label": "Iron",
+                  "hits": 1
+              },
+              {
+                  "id": "Ivory",
+                  "label": "Ivory",
+                  "hits": 3
+              },
+              {
+                  "id": "Khaki",
+                  "label": "Khaki",
+                  "hits": 2
+              },
+              {
+                  "id": "Midnight Blue",
+                  "label": "Midnight Blue",
+                  "hits": 2
+              },
+              {
+                  "id": "Midnight Ice",
+                  "label": "Midnight Ice",
+                  "hits": 1
+              },
+              {
+                  "id": "Mushroom",
+                  "label": "Mushroom",
+                  "hits": 1
+              },
+              {
+                  "id": "Oatmeal",
+                  "label": "Oatmeal",
+                  "hits": 1
+              },
+              {
+                  "id": "Purple",
+                  "label": "Purple",
+                  "hits": 1
+              },
+              {
+                  "id": "Royal Blue",
+                  "label": "Royal Blue",
+                  "hits": 1
+              },
+              {
+                  "id": "Shadow Blue",
+                  "label": "Shadow Blue",
+                  "hits": 2
+              },
+              {
+                  "id": "Silver",
+                  "label": "Silver",
+                  "hits": 1
+              },
+              {
+                  "id": "Sunrise Breeze",
+                  "label": "Sunrise Breeze",
+                  "hits": 1
+              },
+              {
+                  "id": "Taupe",
+                  "label": "Taupe",
+                  "hits": 1
+              },
+              {
+                  "id": "White",
+                  "label": "White",
+                  "hits": 2
+              },
+              {
+                  "id": "Yellow",
+                  "label": "Yellow",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Electronic Type",
+          "label": "Electronic Type",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "Camera",
+                  "label": "Camera",
+                  "hits": 2
+              },
+              {
+                  "id": "Media Players",
+                  "label": "Media Players",
+                  "hits": 27
+              },
+              {
+                  "id": "No",
+                  "label": "No",
+                  "hits": 3
+              }
+          ]
+      },
+      {
+          "id": "extra",
+          "label": "extra",
+          "type": "multiselect",
+          "source": "options",
+          "values": [
+              {
+                  "id": "cool",
+                  "label": "cool",
+                  "hits": 1
+              },
+              {
+                  "id": "nothing",
+                  "label": "nothing",
+                  "hits": 1
+              },
+              {
+                  "id": "super cool",
+                  "label": "super cool",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "format",
+          "label": "format",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "MP3",
+                  "label": "MP3",
+                  "hits": 3
+              },
+              {
+                  "id": "No",
+                  "label": "No",
+                  "hits": 24
+              }
+          ]
+      },
+      {
+          "id": "Frame Style",
+          "label": "Frame Style",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "aviator",
+                  "label": "aviator",
+                  "hits": 16
+              },
+              {
+                  "id": "rectangle",
+                  "label": "rectangle",
+                  "hits": 2
+              },
+              {
+                  "id": "round",
+                  "label": "round",
+                  "hits": 2
+              },
+              {
+                  "id": "square",
+                  "label": "square",
+                  "hits": 8
+              }
+          ]
+      },
+      {
+          "id": "Gender",
+          "label": "Gender",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "Female",
+                  "label": "Female",
+                  "hits": 11
+              },
+              {
+                  "id": "Male",
+                  "label": "Male",
+                  "hits": 48
+              },
+              {
+                  "id": "No",
+                  "label": "No",
+                  "hits": 66
+              }
+          ]
+      },
+      {
+          "id": "glow",
+          "label": "glow",
+          "type": "multiselect",
+          "source": "options",
+          "values": [
+              {
+                  "id": "bright",
+                  "label": "bright",
+                  "hits": 1
+              },
+              {
+                  "id": "low",
+                  "label": "low",
+                  "hits": 1
+              },
+              {
+                  "id": "normal",
+                  "label": "normal",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Jewelry Type",
+          "label": "Jewelry Type",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "No",
+                  "label": "No",
+                  "hits": 14
+              }
+          ]
+      },
+      {
+          "id": "Length",
+          "label": "Length",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "Long",
+                  "label": "Long",
+                  "hits": 1
+              },
+              {
+                  "id": "No",
+                  "label": "No",
+                  "hits": 57
+              },
+              {
+                  "id": "Short",
+                  "label": "Short",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Lens Type",
+          "label": "Lens Type",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "No",
+                  "label": "No",
+                  "hits": 24
+              },
+              {
+                  "id": "UVA/UVB protection",
+                  "label": "UVA/UVB protection",
+                  "hits": 3
+              }
+          ]
+      },
+      {
+          "id": "Luggage Size",
+          "label": "Luggage Size",
+          "type": "multiselect",
+          "source": "attributes",
+          "values": [
+              {
+                  "id": "10\"",
+                  "label": "10\"",
+                  "hits": 1
+              },
+              {
+                  "id": "15\"",
+                  "label": "15\"",
+                  "hits": 1
+              },
+              {
+                  "id": "19\"",
+                  "label": "19\"",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Manufacturer",
+          "label": "Manufacturer",
+          "type": "multiselect",
+          "source": "attributes",
+          "values": [
+              {
+                  "id": "kungBirgers",
+                  "label": "kungBirgers",
+                  "hits": 1
+              },
+              {
+                  "id": "mcRonalds",
+                  "label": "mcRonalds",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Material",
+          "label": "Material",
+          "type": "multiselect",
+          "source": "attributes",
+          "values": [
+              {
+                  "id": "Aloe",
+                  "label": "Aloe",
+                  "hits": 1
+              },
+              {
+                  "id": "Cashmere",
+                  "label": "Cashmere",
+                  "hits": 1
+              },
+              {
+                  "id": "Crystal",
+                  "label": "Crystal",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Necklace Length",
+          "label": "Necklace Length",
+          "type": "multiselect",
+          "source": "attributes",
+          "values": [
+              {
+                  "id": "18\"",
+                  "label": "18\"",
+                  "hits": 2
+              },
+              {
+                  "id": "24\"",
+                  "label": "24\"",
+                  "hits": 2
+              }
+          ]
+      },
+      {
+          "id": "Occasion",
+          "label": "Occasion",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "Career",
+                  "label": "Career",
+                  "hits": 48
+              },
+              {
+                  "id": "No",
+                  "label": "No",
+                  "hits": 35
+              }
+          ]
+      },
+      {
+          "id": "SD-Card Slot",
+          "label": "SD-Card Slot",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "Yes",
+                  "label": "Yes",
+                  "hits": 2
+              }
+          ]
+      },
+      {
+          "id": "Searcher",
+          "label": "Searcher",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "No",
+                  "label": "No",
+                  "hits": 1
+              },
+              {
+                  "id": "Yes",
+                  "label": "Yes",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Serial number",
+          "label": "Serial number",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "abc",
+                  "label": "abc",
+                  "hits": 1
+              },
+              {
+                  "id": "xyz",
+                  "label": "xyz",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Shoe size",
+          "label": "Shoe size",
+          "type": "multiselect",
+          "source": "attributes",
+          "values": [
+              {
+                  "id": "10",
+                  "label": "10",
+                  "hits": 2
+              },
+              {
+                  "id": "11",
+                  "label": "11",
+                  "hits": 1
+              },
+              {
+                  "id": "12",
+                  "label": "12",
+                  "hits": 2
+              },
+              {
+                  "id": "5",
+                  "label": "5",
+                  "hits": 3
+              },
+              {
+                  "id": "6",
+                  "label": "6",
+                  "hits": 2
+              },
+              {
+                  "id": "7",
+                  "label": "7",
+                  "hits": 2
+              },
+              {
+                  "id": "8",
+                  "label": "8",
+                  "hits": 2
+              },
+              {
+                  "id": "9",
+                  "label": "9",
+                  "hits": 2
+              }
+          ]
+      },
+      {
+          "id": "Size",
+          "label": "Size",
+          "type": "multiselect",
+          "source": "attributes",
+          "values": [
+              {
+                  "id": "11",
+                  "label": "11",
+                  "hits": 3
+              },
+              {
+                  "id": "30",
+                  "label": "30",
+                  "hits": 1
+              },
+              {
+                  "id": "31",
+                  "label": "31",
+                  "hits": 1
+              },
+              {
+                  "id": "32",
+                  "label": "32",
+                  "hits": 1
+              },
+              {
+                  "id": "33",
+                  "label": "33",
+                  "hits": 1
+              },
+              {
+                  "id": "34",
+                  "label": "34",
+                  "hits": 1
+              },
+              {
+                  "id": "35",
+                  "label": "35",
+                  "hits": 1
+              },
+              {
+                  "id": "36",
+                  "label": "36",
+                  "hits": 1
+              },
+              {
+                  "id": "37",
+                  "label": "37",
+                  "hits": 1
+              },
+              {
+                  "id": "38",
+                  "label": "38",
+                  "hits": 1
+              },
+              {
+                  "id": "39",
+                  "label": "39",
+                  "hits": 1
+              },
+              {
+                  "id": "40",
+                  "label": "40",
+                  "hits": 1
+              },
+              {
+                  "id": "41",
+                  "label": "41",
+                  "hits": 1
+              },
+              {
+                  "id": "42",
+                  "label": "42",
+                  "hits": 1
+              },
+              {
+                  "id": "43",
+                  "label": "43",
+                  "hits": 1
+              },
+              {
+                  "id": "44",
+                  "label": "44",
+                  "hits": 1
+              },
+              {
+                  "id": "45",
+                  "label": "45",
+                  "hits": 1
+              },
+              {
+                  "id": "46",
+                  "label": "46",
+                  "hits": 1
+              },
+              {
+                  "id": "47",
+                  "label": "47",
+                  "hits": 1
+              },
+              {
+                  "id": "48",
+                  "label": "48",
+                  "hits": 1
+              },
+              {
+                  "id": "49",
+                  "label": "49",
+                  "hits": 1
+              },
+              {
+                  "id": "50",
+                  "label": "50",
+                  "hits": 1
+              },
+              {
+                  "id": "51",
+                  "label": "51",
+                  "hits": 1
+              },
+              {
+                  "id": "7",
+                  "label": "7",
+                  "hits": 3
+              },
+              {
+                  "id": "9",
+                  "label": "9",
+                  "hits": 1
+              },
+              {
+                  "id": "L",
+                  "label": "L",
+                  "hits": 1
+              },
+              {
+                  "id": "M",
+                  "label": "M",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "special",
+          "label": "special",
+          "type": "multiselect",
+          "source": "options",
+          "values": [
+              {
+                  "id": "knoblauch",
+                  "label": "knoblauch",
+                  "hits": 1
+              },
+              {
+                  "id": "scharf",
+                  "label": "scharf",
+                  "hits": 1
+              },
+              {
+                  "id": "yoguhrt",
+                  "label": "yoguhrt",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Style",
+          "label": "Style",
+          "type": "multiselect",
+          "source": "attributes",
+          "values": [
+              {
+                  "id": "Bangle",
+                  "label": "Bangle",
+                  "hits": 2
+              },
+              {
+                  "id": "Chain",
+                  "label": "Chain",
+                  "hits": 1
+              },
+              {
+                  "id": "Clean",
+                  "label": "Clean",
+                  "hits": 1
+              },
+              {
+                  "id": "Drop",
+                  "label": "Drop",
+                  "hits": 2
+              }
+          ]
+      },
+      {
+          "id": "Type",
+          "label": "Type",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "Blouses",
+                  "label": "Blouses",
+                  "hits": 3
+              },
+              {
+                  "id": "Outerwear",
+                  "label": "Outerwear",
+                  "hits": 28
+              },
+              {
+                  "id": "Shirts",
+                  "label": "Shirts",
+                  "hits": 53
+              },
+              {
+                  "id": "Tops",
+                  "label": "Tops",
+                  "hits": 1
+              }
+          ]
+      },
+      {
+          "id": "Weight",
+          "label": "Weight",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "0.0000",
+                  "label": "0.0000",
+                  "hits": 5
+              },
+              {
+                  "id": "0.5000",
+                  "label": "0.5000",
+                  "hits": 7
+              },
+              {
+                  "id": "1.0000",
+                  "label": "1.0000",
+                  "hits": 29
+              },
+              {
+                  "id": "1.5000",
+                  "label": "1.5000",
+                  "hits": 7
+              },
+              {
+                  "id": "10.0000",
+                  "label": "10.0000",
+                  "hits": 5
+              },
+              {
+                  "id": "1000.0000",
+                  "label": "1000.0000",
+                  "hits": 12
+              },
+              {
+                  "id": "12.0000",
+                  "label": "12.0000",
+                  "hits": 13
+              },
+              {
+                  "id": "1200.0000",
+                  "label": "1200.0000",
+                  "hits": 1
+              },
+              {
+                  "id": "16.0000",
+                  "label": "16.0000",
+                  "hits": 19
+              },
+              {
+                  "id": "1750.0000",
+                  "label": "1750.0000",
+                  "hits": 1
+              },
+              {
+                  "id": "2000.0000",
+                  "label": "2000.0000",
+                  "hits": 1
+              },
+              {
+                  "id": "23.0000",
+                  "label": "23.0000",
+                  "hits": 3
+              },
+              {
+                  "id": "3.0000",
+                  "label": "3.0000",
+                  "hits": 4
+              },
+              {
+                  "id": "30.0000",
+                  "label": "30.0000",
+                  "hits": 4
+              },
+              {
+                  "id": "40.0000",
+                  "label": "40.0000",
+                  "hits": 2
+              },
+              {
+                  "id": "5.0000",
+                  "label": "5.0000",
+                  "hits": 13
+              },
+              {
+                  "id": "50.0000",
+                  "label": "50.0000",
+                  "hits": 14
+              },
+              {
+                  "id": "54.0000",
+                  "label": "54.0000",
+                  "hits": 3
+              },
+              {
+                  "id": "70.0000",
+                  "label": "70.0000",
+                  "hits": 4
+              },
+              {
+                  "id": "78.0000",
+                  "label": "78.0000",
+                  "hits": 4
+              },
+              {
+                  "id": "89.0000",
+                  "label": "89.0000",
+                  "hits": 7
+              },
+              {
+                  "id": "9.0000",
+                  "label": "9.0000",
+                  "hits": 10
+              },
+              {
+                  "id": "9001.0000",
+                  "label": "9001.0000",
+                  "hits": 3
+              }
+          ]
+      },
+      {
+          "id": "Zoom",
+          "label": "Zoom",
+          "type": "multiselect",
+          "source": "properties",
+          "values": [
+              {
+                  "id": "2x",
+                  "label": "2x",
+                  "hits": 1
+              },
+              {
+                  "id": "8x",
+                  "label": "8x",
+                  "hits": 1
+              }
+          ]
+      }
+  ]
+}

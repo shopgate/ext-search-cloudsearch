@@ -10,14 +10,16 @@ describe('getSearchSuggestions', () => {
     context = {
       config: {
         languageId: 'de-de',
-        'cloudsearch-de': 'http://cloudsearch.de/search',
-        'cloudsearch-en': 'http://cloudsearch.en/search'
+        cloudsearchUrls: {
+          de: 'http://cloudsearch.de/search',
+          en: 'http://cloudsearch.en/search'
+        }
       },
-      meta: {appId: 'shop_12345'},
+      meta: { appId: 'shop_12345' },
       tracedRequest: () => request,
-      log: {debug: () => {}}
+      log: { debug: () => {} }
     }
-    input = {searchPhrase: 'some😅   spAced👌'} // multi-whitespace and emoji should be removed
+    input = { searchPhrase: 'some😅   spAced👌' } // multi-whitespace and emoji should be removed
 
     nock.disableNetConnect()
   })

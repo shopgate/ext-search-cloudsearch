@@ -1,0 +1,1715 @@
+{
+  "totalProductCount": 115,
+  "products": [
+      {
+          "id": "929",
+          "name": "Product with long description -4-",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-long-description-4.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"929\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "666664"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 8,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "901736df3fbc807121c46f9eaed8ff28",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/bd2dbdac9b18edc32b5362aa7649e7548771276deb19794a9f49034b6d5fc98e",
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 939,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 939,
+              "unitPriceWithTax": 939,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1012",
+          "name": "Product with many Properties - 5 -",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-many-properties-5.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1012\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "985"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "3de0fc2010ff3c68d920357144d29228",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/c65c807683c2408741e84fd72bfb4579e132936f274252c8c03c4637d868d8e2",
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 399,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 399,
+              "unitPriceWithTax": 399,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "928",
+          "name": "Product with long description -3-",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-long-description-3.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"928\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "666663"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 4,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "fec8cd944b8e7fbc6f2bfdfaaafb3e39",
+          "baseProductId": null,
+          "availability": {
+              "text": "Nur noch 4 verfügbar",
+              "state": "warning"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/cc9d7ea2d549df644263ba620721c60eb2c8c2f364f065ab76c4089731d68b4a",
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 234,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 234,
+              "unitPriceWithTax": 234,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1070",
+          "name": "Product with many attribute values",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-many-attribute-values-20.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1070\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "12354564684354654564"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": true,
+              "hasOptions": false
+          },
+          "internalLog": "413b5e0c4dbcc9f2d577e8e4aadc1c9a",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/dbbbd6c10bab2c4f8e9698b541ae0d6c486423927f9479dc97a9f5a869839645",
+          "type": "parent",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 220,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 220,
+              "unitPriceWithTax": 220,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1066",
+          "name": "Product Mix 3 with a very very very very very very long name",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-mix-3-with-a-very-very-very-very-very-very-long-name.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1066\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "982"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "830d77cd409573efa2662acea9e92fce",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/4773a00edca5c63900dc0b5543fb0916a4dea3b4ab65d7ec14783e89aabd2079",
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 200,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 200,
+              "unitPriceWithTax": 200,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "999",
+          "name": "Product with many Properties - 4 -",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-many-properties-4.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"999\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "986"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "78e1f0a67ec680118099703060e11633",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/f5c0512a1f3e83d2434b91a3cb80457425893a80398ba075c37322a5d6e4f6f6",
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 199,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 199,
+              "unitPriceWithTax": 199,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "959",
+          "name": "Product with child 2 Mother",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-2-mother.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"959\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "1230123012304545"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": true,
+              "hasOptions": false
+          },
+          "internalLog": "fcddb7bbcd24bcd12eb806bc1653640c",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/61fe215bfd100ff3da97768562b4e75a4443922dec2a10b2567bea52d73b3ea9",
+          "type": "parent",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 154,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 154,
+              "unitPriceWithTax": 154,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "932",
+          "name": "Product with rating 1",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-rating-1.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"932\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "994"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 1,
+              "average": 100,
+              "reviewCount": 1
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "d8c9607a3d20bb2c46f1473e50e4d43b",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/17a6ac9f4803681238be5ee5c217ad36ae1542d9b1b97cde141d4c9700a76e65",
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 150,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 150,
+              "unitPriceWithTax": 150,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "938",
+          "name": "Product with rating 2",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-rating-2.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"938\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "993"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 1,
+              "average": 80,
+              "reviewCount": 1
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "d8c9607a3d20bb2c46f1473e50e4d43b",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/ea78182a155e2436fbd6a06cab5ba92ad4db367ed36ac545c7923877129ddcde",
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 150,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 150,
+              "unitPriceWithTax": 150,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "939",
+          "name": "Product with rating 3",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-rating-3.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"939\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "992"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 1,
+              "average": 40,
+              "reviewCount": 1
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "d8c9607a3d20bb2c46f1473e50e4d43b",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/bfb8e8c3367e52c23cb343b2803ff983a34f8c6ce0378db90b2a86204d6b1bca",
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 150,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 150,
+              "unitPriceWithTax": 150,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "940",
+          "name": "Product with rating 4",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-rating-4.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"940\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "991"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 1,
+              "average": 100,
+              "reviewCount": 1
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "d8c9607a3d20bb2c46f1473e50e4d43b",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/581da3d9e3c77f9d1dccf73d7134f2fb19304caf7dd437ce96fe78b839b405a3",
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 150,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 150,
+              "unitPriceWithTax": 150,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "942",
+          "name": "Product without rating",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-rating-5.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"942\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "990"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "d8c9607a3d20bb2c46f1473e50e4d43b",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/5c60c9d7442f313559853d825406ab1729f0208421d2ba682a3191287666a1f0",
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 150,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 150,
+              "unitPriceWithTax": 150,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1000",
+          "name": "Product with child 4 Mother - 3 Attributes -Black-10\"-kungBirgers-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-black-10-kungbirgers-aloe.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1000\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "kungBirgers",
+          "identifiers": {
+              "sku": "123466789-Black-10\"-kungBirgers-Aloe"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1001",
+          "name": "Product with child 4 Mother - 3 Attributes -Black-10\"-kungBirgers-Cashmere",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-black-10-kungbirgers-cashmere.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1001\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "kungBirgers",
+          "identifiers": {
+              "sku": "123466789-Black-10\"-kungBirgers-Cashmere"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1003",
+          "name": "Product with child 4 Mother - 3 Attributes -Black-10\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-black-10-mcronalds-aloe.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1003\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Black-10\"-mcRonalds-Aloe"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 13,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1004",
+          "name": "Product with child 4 Mother - 3 Attributes -Black-15\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-black-15-mcronalds-aloe.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1004\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Black-15\"-mcRonalds-Aloe"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 17,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1005",
+          "name": "Product with child 4 Mother - 3 Attributes -Black-19\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-black-19-mcronalds-aloe.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1005\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Black-19\"-mcRonalds-Aloe"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 16,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1006",
+          "name": "Product with child 4 Mother - 3 Attributes -Blue-10\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-blue-10-mcronalds-aloe.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1006\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Blue-10\"-mcRonalds-Aloe"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1007",
+          "name": "Product with child 4 Mother - 3 Attributes -Brown-10\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-brown-10-mcronalds-aloe.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1007\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Brown-10\"-mcRonalds-Aloe"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 19,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1008",
+          "name": "Product with child 4 Mother - 3 Attributes -Blue-10\"-mcRonalds-Aloe",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-blue-10-mcronalds-aloe-1018.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1008\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "1234667894545"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1009",
+          "name": "Product with child 4 Mother - 3 Attributes -Blue-10\"-mcRonalds-Cashmere",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-blue-10-mcronalds-cashmere.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1009\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "12346678945454545"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "1010",
+          "name": "Product with child 4 Mother - 3 Attributes -Blue-15\"-mcRonalds-Crystal",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-4-mother-3-attributes-blue-15-mcronalds-crystal.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"1010\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "mcRonalds",
+          "identifiers": {
+              "sku": "123466789-Blue-15\"-mcRonalds-Crystal"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "998",
+          "name": "Product with child 4 Mother - 3 Attributes",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-3-mother-3-attributes-1035.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"998\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "123466789"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": true,
+              "hasOptions": false
+          },
+          "internalLog": "18b304dc47ebc6177446d3a530b9631f",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/765fbf495d8cff3878e7946145e11888e3c36b1802c4e1dce1aa9fcd4811220d",
+          "type": "parent",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 140,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 140,
+              "unitPriceWithTax": 140,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "924",
+          "name": "A product with no picture",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/a-product-with-many-pictures-5.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"924\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "5677213"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 13,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "ef332eebc034165171f3a3cf62a04c2e",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 130.5,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 130.5,
+              "unitPriceWithTax": 130.5,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "983",
+          "name": "Product with child 3 Mother - 3 Attributes",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-3-mother-3-attributes.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"983\",\"item_type\":\"configurable\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "012301231454"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": true,
+              "quantity": 0,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": true,
+              "hasOptions": false
+          },
+          "internalLog": "58b67e18169d9d8a3cabecff83a66a31",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": "https://img-cdn.shopgate.com/30631/1/e4c71988e1fcf9da4becb8d4257cbc227e4fe8a527a55eee9f71fd5eb3cbb1a3",
+          "type": "parent",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 120,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 120,
+              "unitPriceWithTax": 120,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "984",
+          "name": "Product with child 3 Mother - 3 Attributes -XL-Black-11",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-3-mother-3-attributes-xl-black-11.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"984\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "012301231454-XL-Black-11"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "58b67e18169d9d8a3cabecff83a66a31",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 120,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 120,
+              "unitPriceWithTax": 120,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "985",
+          "name": "Product with child 3 Mother - 3 Attributes -XL-Black-7",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-3-mother-3-attributes-xl-black-7.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"985\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "012301231454-XL-Black-7"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "58b67e18169d9d8a3cabecff83a66a31",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 120,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 120,
+              "unitPriceWithTax": 120,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "986",
+          "name": "Product with child 3 Mother - 3 Attributes -XL-Black-9",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-3-mother-3-attributes-xl-black-9.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"986\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "012301231454-XL-Black-9"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "58b67e18169d9d8a3cabecff83a66a31",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 120,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 120,
+              "unitPriceWithTax": 120,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "987",
+          "name": "Product with child 3 Mother - 3 Attributes -XL-Blue-11",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-3-mother-3-attributes-xl-blue-11.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"987\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "012301231454-XL-Blue-11"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "58b67e18169d9d8a3cabecff83a66a31",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 120,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 120,
+              "unitPriceWithTax": 120,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      },
+      {
+          "id": "988",
+          "name": "Product with child 3 Mother - 3 Attributes -XL-Blue-7",
+          "active": true,
+          "description": "",
+          "productUrl": "https://carts.localdev.cc/shopping_carts/Magento/1.9.2.1/58bea302af41e/product-with-child-3-mother-3-attributes-xl-blue-7.html",
+          "customData": "{\"store_view_id\":\"1\",\"product_id\":\"988\",\"item_type\":\"simple\",\"exchange_rate\":1}",
+          "manufacturer": "",
+          "identifiers": {
+              "sku": "012301231454-XL-Blue-7"
+          },
+          "tags": [],
+          "ageRating": 0,
+          "stock": {
+              "ignoreQuantity": false,
+              "quantity": 20,
+              "info": "In stock",
+              "orderable": true,
+              "minOrderQuantity": 1,
+              "maxOrderQuantity": 10000
+          },
+          "rating": {
+              "count": 0,
+              "average": 0,
+              "reviewCount": 0
+          },
+          "flags": {
+              "hasChildren": false,
+              "hasVariants": false,
+              "hasOptions": false
+          },
+          "internalLog": "58b67e18169d9d8a3cabecff83a66a31",
+          "baseProductId": null,
+          "availability": {
+              "text": "In stock",
+              "state": "ok"
+          },
+          "featuredImageUrl": null,
+          "type": "simple",
+          "price": {
+              "currency": "EUR",
+              "info": "",
+              "unitPrice": 120,
+              "unitPriceStriked": 0,
+              "unitPriceMin": 0,
+              "unitPriceMax": 0,
+              "unitPriceNet": 120,
+              "unitPriceWithTax": 120,
+              "taxAmount": 0,
+              "taxPercent": 0,
+              "msrp": 0,
+              "tiers": [],
+              "discount": 0
+          },
+          "highlight": false,
+          "liveshoppings": []
+      }
+  ]
+}

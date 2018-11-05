@@ -2,7 +2,7 @@ const QueryBuilder = require('../cloudsearch/QueryBuilder')
 const Invoker = require('../cloudsearch/Invoker')
 const Requester = require('../cloudsearch/Requester')
 
-module.exports = async (context, { searchPhrase, sort = 'relevance', offset = 0, limit = 25 }) => {
+module.exports = async (context, { searchPhrase, sort = 'relevance', offset = 0, limit = 20 }) => {
   if (limit > 100) {
     const err = new Error('The limit can\'t be greater than 100')
     err.code = 'EVALIDATION'

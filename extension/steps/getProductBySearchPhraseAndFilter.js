@@ -16,6 +16,8 @@ module.exports = async (context, input) => {
   let queryBuilder = new QueryBuilder(context.config.shopNumber, context.config.languageId)
   queryBuilder = Helper.mapFiltersToQueryBuiler(filters, queryBuilder)
   if (categoryPath) queryBuilder.addCategoryFilter(categoryPath)
+
+  queryBuilder.setSearchTerm(input.searchPhrase)
   queryBuilder.setSort(sort)
   queryBuilder.setPagination(offset, limit)
   return invoker.search(queryBuilder)
