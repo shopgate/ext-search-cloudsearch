@@ -34,8 +34,8 @@ const baseSearchParams = {
  * @param {Object} input.searchPhrase - the (incomplete) searchPhrase
  * @param {Function} cb
  */
-module.exports = function (context, input, cb) {
-  if (input.searchPhrase.length < 2) return cb(null, { suggestions: [] })
+module.exports = async (context, input) => {
+  if (input.searchPhrase.length < 2) return { suggestions: [] }
 
   const requester = new Requester(context.config.cloudsearchUrls)
   const cloudsearchUrl = requester.getUrl(context.config.languageId)
@@ -51,14 +51,9 @@ module.exports = function (context, input, cb) {
 
   context.log.debug({ options }, 'sending cloudsearch request')
 
-  context.tracedRequest(`Cloudsearch`)(options, (err, result, body) => {
-    if (err) return cb(err)
-
-    if (result.statusCode !== 200) return cb(new Error(body.message || body || 'unknown error'))
-
-    const suggestions = parseResult(suggestQuery, body).slice(0, 10)
-    cb(null, { suggestions })
-  })
+  const body = await context.tracedRequest(`Cloudsearch`)(options)
+  const suggestions = parseResult(suggestQuery, body).slice(0, 10)
+  return { suggestions }
 }
 
 function parseHighlight (suggestQuery, suggestionsWithCounts, highlight) {

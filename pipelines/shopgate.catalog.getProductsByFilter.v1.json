@@ -175,7 +175,7 @@
       },
       {
         "type": "pipeline",
-        "id": "shopgate.catalog.getProducts.v1",
+        "id": "shopgate.catalog.getProductsByIds.v1",
         "input": [
           {
             "id": "20",
