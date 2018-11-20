@@ -55,7 +55,7 @@ class Invoker {
     if (foundHits) return this.responseParser.getFilterResponse(result, shopLanguage)
 
     const fuzzyQuery = queryBuilder.buildSearchQuery(true, true)
-    const fuzzyResult = this.requester.request(fuzzyQuery, shopLanguage)
+    const fuzzyResult = await this.requester.request(fuzzyQuery, shopLanguage)
     return this.responseParser.getFilterResponse(fuzzyResult, shopLanguage)
   }
 
