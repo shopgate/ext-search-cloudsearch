@@ -14,7 +14,6 @@ matrix:
       env: TYPE=UNIT_CODESTYLE_DEPENDENCY
       script:
       - cd extension
-      - npm i
       - npm run test
       - npm audit
 
