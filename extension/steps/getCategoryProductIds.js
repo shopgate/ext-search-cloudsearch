@@ -8,7 +8,7 @@ module.exports = async (context, input) => {
   const { config } = context
   const { categoryId, sort = 'relevance', offset = 0, limit = 20 } = input
 
-  if (categoryId && ['priceAsc', 'priceDesc'].includes(sort)) {
+  if (context.config.categoryUseCloudsearch && categoryId && ['priceAsc', 'priceDesc'].includes(sort)) {
     const tokenHandler = new TokenHandler({
       api: `https://{serviceName}.${config.credentials.baseDomain}/`,
       clientId: config.credentials.clientId,

@@ -29,6 +29,17 @@
         "key" : "languageId"
       }
     },
+    "categoryUseCloudsearch": {
+      "type": "bigApi",
+      "destination" : "backend",
+      "default": null,
+      "params": {
+        "method" : "GET",
+        "service" : "config",
+        "path" : "/v1/shop/%(shopId)s/category_use_cloudsearch",
+        "key" : "value"
+      }
+    },
     "shopNumber": {
       "type": "static",
       "destination": "backend",
