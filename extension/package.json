@@ -17,7 +17,6 @@
     "standard": "^10.0.3"
   },
   "dependencies": {
-    "@shopgate/bigapi-requester": "^2.0.5",
     "hyphenation.de": "^0.2.1",
     "hypher": "^0.2.5",
     "request": "^2.88.0",

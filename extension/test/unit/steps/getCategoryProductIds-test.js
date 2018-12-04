@@ -4,11 +4,9 @@ const sinon = require('sinon')
 
 describe('steps/getCategoryProductIds', async () => {
   const tokenHandlerMock = {}
-  const externalBigAPIMock = { request: sinon.stub() }
-  const BigApiRequesterMock = {
-    TokenHandler: sinon.stub(),
-    ExternalBigAPI: sinon.stub()
-  }
+  const TokenHandlerMock = sinon.stub().returns(tokenHandlerMock)
+
+  const RequestMock = sinon.stub()
 
   const invokerMock = { search: sinon.stub() }
   const InvokerMock = sinon.stub()
@@ -20,17 +18,18 @@ describe('steps/getCategoryProductIds', async () => {
     mapFiltersToQueryBuiler: sinon.stub()
   }
   const getCategoryProductIds = proxyquire('../../../steps/getCategoryProductIds.js', {
-    '@shopgate/bigapi-requester': BigApiRequesterMock,
+    'request-promise-native': RequestMock,
+    '../lib/TokenHandler': TokenHandlerMock,
     '../cloudsearch/QueryBuilder': QueryBuilderMock,
     '../cloudsearch/Requester': RequesterMock,
     '../cloudsearch/Invoker': InvokerMock,
     '../Helper': HelperMock
   })
 
-  BigApiRequesterMock.TokenHandler.returns(tokenHandlerMock)
-  BigApiRequesterMock.ExternalBigAPI.returns(externalBigAPIMock)
-
   afterEach(async () => {
+    delete tokenHandlerMock.credentials
+    delete tokenHandlerMock.getToken
+    delete tokenHandlerMock.retrieveToken
     sinon.reset()
   })
 
@@ -39,6 +38,7 @@ describe('steps/getCategoryProductIds', async () => {
     const context = {
       meta: { appId: 'shop_30685' },
       config: {
+        categoryUseCloudsearch: true,
         cloudsearchUrls: { de: 'https://cloudsearch.de' },
         credentials: {
           baseDomain: 'shopgatedev.services',
@@ -50,15 +50,13 @@ describe('steps/getCategoryProductIds', async () => {
       log: null
     }
 
+    tokenHandlerMock.credentials = {
+      api: `https://{serviceName}.${context.config.credentials.baseDomain}`
+    }
+    tokenHandlerMock.getToken = sinon.stub().resolves({})
     const categoryMock = { path: 'Men' }
 
-    externalBigAPIMock.request.withArgs({
-      service: 'product',
-      version: 'v1',
-      path: '30685/categories/men',
-      method: 'GET'
-    }).resolves({ body: categoryMock })
-
+    RequestMock.resolves({ body: categoryMock })
     invokerMock.search.resolves(expectedResult)
 
     const queryBuilderMock = {
@@ -70,8 +68,7 @@ describe('steps/getCategoryProductIds', async () => {
 
     const result = await getCategoryProductIds(context, { categoryId: 'men', sort: 'priceAsc' })
 
-    sinon.assert.calledWithNew(BigApiRequesterMock.TokenHandler)
-    sinon.assert.calledWithNew(BigApiRequesterMock.ExternalBigAPI)
+    sinon.assert.calledWithNew(TokenHandlerMock)
     sinon.assert.calledWithNew(InvokerMock)
     sinon.assert.calledWithNew(QueryBuilderMock)
     sinon.assert.calledOnce(HelperMock.mapFiltersToQueryBuiler)
@@ -88,6 +85,7 @@ describe('steps/getCategoryProductIds', async () => {
     const context = {
       meta: { appId: 'shop_30685' },
       config: {
+        categoryUseCloudsearch: false,
         cloudsearchUrls: { de: 'https://cloudsearch.de' },
         credentials: {
           baseDomain: 'shopgatedev.services',
@@ -100,9 +98,8 @@ describe('steps/getCategoryProductIds', async () => {
     }
     const result = await getCategoryProductIds(context, { categoryId: 'men' })
 
-    sinon.assert.notCalled(BigApiRequesterMock.TokenHandler)
-    sinon.assert.notCalled(BigApiRequesterMock.ExternalBigAPI)
-
+    sinon.assert.notCalled(TokenHandlerMock)
+    sinon.assert.notCalled(RequestMock)
     assert.deepStrictEqual(result, expectedResult)
   })
 })
