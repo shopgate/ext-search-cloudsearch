@@ -4,13 +4,12 @@ const sinon = require('sinon')
 
 describe('steps/getCategoryProductIds', async () => {
   const tokenHandlerMock = {}
-  const TokenHandlerMock = sinon.stub().returns(tokenHandlerMock)
+  const TokenHandlerMock = sinon.stub()
 
   const RequestMock = sinon.stub()
 
   const invokerMock = { search: sinon.stub() }
   const InvokerMock = sinon.stub()
-  InvokerMock.returns(invokerMock)
 
   const QueryBuilderMock = sinon.stub()
   const RequesterMock = sinon.stub()
@@ -24,6 +23,11 @@ describe('steps/getCategoryProductIds', async () => {
     '../cloudsearch/Requester': RequesterMock,
     '../cloudsearch/Invoker': InvokerMock,
     '../Helper': HelperMock
+  })
+
+  beforeEach(async () => {
+    TokenHandlerMock.returns(tokenHandlerMock)
+    InvokerMock.returns(invokerMock)
   })
 
   afterEach(async () => {
@@ -54,6 +58,7 @@ describe('steps/getCategoryProductIds', async () => {
       api: `https://{serviceName}.${context.config.credentials.baseDomain}`
     }
     tokenHandlerMock.getToken = sinon.stub().resolves({})
+
     const categoryMock = { path: 'Men' }
 
     RequestMock.resolves({ body: categoryMock })

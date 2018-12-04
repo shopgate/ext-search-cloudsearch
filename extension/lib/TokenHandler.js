@@ -11,15 +11,15 @@ class TokenHandler {
   /**
    * Construct a new instance of TokenHandler
    *
-   * @param {Object} options
-   * @param {String} options.api
-   * @param {String} options.clientId
-   * @param {String} options.clientSecret
-   * @param {String} options.refreshToken
+   * @param {Object} credentials
+   * @param {String} credentials.api
+   * @param {String} credentials.clientId
+   * @param {String} credentials.clientSecret
+   * @param {String} credentials.refreshToken
    */
-  constructor (options) {
-    this.credentials = options
-    this.refreshToken = options.refreshToken
+  constructor (credentials) {
+    this.credentials = credentials
+    this.refreshToken = credentials.refreshToken
     this.token = null
   }
 
