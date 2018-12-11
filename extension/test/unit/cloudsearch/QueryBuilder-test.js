@@ -69,17 +69,17 @@ describe('cloudsearch/QueryBuilder', function () {
       assert.equal(result.q, "(or (and 'ein' 'qu' '3' 'ery' 'mit' 'meh' 're' 'ren' 'sil' 'ben' 'und' 'trenn' 'strich' '3') (and (prefix field='item_numbers' 'ein') (prefix field='item_numbers' 'qu') (prefix field='item_numbers' '3') (prefix field='item_numbers' 'ery') (prefix field='item_numbers' 'mit') (prefix field='item_numbers' 'meh') (prefix field='item_numbers' 're') (prefix field='item_numbers' 'ren') (prefix field='item_numbers' 'sil') (prefix field='item_numbers' 'ben') (prefix field='item_numbers' 'und') (prefix field='item_numbers' 'trenn') (prefix field='item_numbers' 'strich') (prefix field='item_numbers' '3')) (term boost=2 'ein qu3ery mit mehReren silben und trennstrich - 3') (prefix 'ein qu3ery mit mehReren silben und trennstrich - 3') (and (prefix field=name 'ein') (prefix field=name 'ery') (prefix field=name 'mit') (prefix field=name 'meh') (prefix field=name 'reren') (prefix field=name 'silben') (prefix field=name 'und') (prefix field=name 'trennstrich')) item_numbers:'ein qu3ery mit mehReren silben und trennstrich - 3')")
     })
 
-    it('should build a complex query 3', () => {
+    it('should build a complex query 3 (fuzzy)', () => {
       builder.setPriceRange(200, 1500).setPagination(0, 0).setSort('random').shopLanguage = LANG_DE
       const result = builder.setSearchTerm('ein qu3ery mit mehReren silben und trennstrich').buildSearchQuery(true)
 
-      assert.equal(result['q.parser'], 'structured')
+      assert.equal(result['q.parser'], undefined)
       assert.equal(typeof result.start, 'undefined')
       assert.equal(result.size, 0)
       assert.equal(result.sort, 'random desc')
       assert.ok(result['expr.random'].match(/^sin\(_rand\*\d\d?\d?\)$/), `expr.random is ${result['expr.random']}`)
       assert.equal(result.fq, '(and shop_number:123 display_amount:[200,1500])')
-      assert.equal(result.q, "(or (and 'ein' 'qu' '3' 'ery' 'mit' 'meh' 're' 'ren' 'sil' 'ben' 'und' 'trenn' 'strich' '2') (and (prefix field='item_numbers' 'ein') (prefix field='item_numbers' 'qu') (prefix field='item_numbers' '3') (prefix field='item_numbers' 'ery') (prefix field='item_numbers' 'mit') (prefix field='item_numbers' 'meh') (prefix field='item_numbers' 're') (prefix field='item_numbers' 'ren') (prefix field='item_numbers' 'sil') (prefix field='item_numbers' 'ben') (prefix field='item_numbers' 'und') (prefix field='item_numbers' 'trenn') (prefix field='item_numbers' 'strich') (prefix field='item_numbers' '2')) (term boost=2 'ein qu3ery mit mehreren silben und trennstrich 2') (prefix 'ein qu3ery mit mehreren silben und trennstrich 2') (and (prefix field=name 'ein') (prefix field=name 'ery') (prefix field=name 'mit') (prefix field=name 'mehreren') (prefix field=name 'silben') (prefix field=name 'und') (prefix field=name 'trennstrich')) item_numbers:'ein qu3ery mit mehreren silben und trennstrich 2')")
+      assert.equal(result.q, "ein qu3ery mit mehreren silben und trennstrich~2")
     })
 
     it('should build a complex query 4', () => {

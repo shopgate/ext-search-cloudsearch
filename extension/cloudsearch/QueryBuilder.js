@@ -100,11 +100,11 @@ class QueryBuilder {
   buildSearchQuery (fuzzy, forFilters) {
     let term = this.searchTerm || ''
 
+    let searchQuery = this._buildSearchTermQuery(term)
     if (fuzzy) {
-      term = `${this._trimQueryString(term.toLowerCase(), 60)}~2`
+      searchQuery = `${this._trimQueryString(term.toLowerCase(), 60)}~2`
     }
 
-    const searchQuery = this._buildSearchTermQuery(term)
     const queryParams = this._setupQueryParams(searchQuery, !forFilters)
     if (forFilters) {
       this._addFacetsToQueryParams(queryParams)
