@@ -1,6 +1,21 @@
 {
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "id": "@shopgate/search-cloudsearch",
+  "steps": [{
+    "path": "extension/steps/getCategoryProductIds.js",
+    "description": "Description",
+    "hooks": ["shopgate.catalog.getProductsByCategory.v1:getProductIds"],
+    "input": [
+      {"key": "categoryId"},
+      {"key": "offset", "optional": true },
+      {"key": "limit", "optional": true },
+      {"key": "sort", "optional": true }
+    ],
+    "output": [
+      {"key": "productIds", "optional": true},
+      {"key": "totalProductCount", "optional": true}
+    ]
+  }],
   "components": [
   ],
   "configuration": {
@@ -12,6 +27,17 @@
         "service" : "shop",
         "path" : "/v1/%(shopId)s",
         "key" : "languageId"
+      }
+    },
+    "categoryUseCloudsearch": {
+      "type": "bigApi",
+      "destination" : "backend",
+      "default": null,
+      "params": {
+        "method" : "GET",
+        "service" : "config",
+        "path" : "/v1/shop/%(shopId)s/category_use_cloudsearch",
+        "key" : "value"
       }
     },
     "shopNumber": {
@@ -30,6 +56,10 @@
           "en": "https://search-shopgate-items-en-qj4xjcc45jah5zdcxwoqbriivi.eu-west-1.cloudsearch.amazonaws.com/2013-01-01/search"
         }
       }
+    },
+    "credentials": {
+      "type": "bigApiCredentials",
+      "destination" : "backend"
     }
   }
 }
