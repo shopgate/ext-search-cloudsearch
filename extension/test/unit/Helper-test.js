@@ -29,7 +29,7 @@ describe('Helper', function () {
     })
   })
 
-  describe('mapFiltersToQueryBuiler', () => {
+  describe('mapFiltersToQueryBuilder', () => {
     it('should map the filter to the query builder', () => {
       let queryBuilder = {
         setPriceRange: sinon.stub(),
@@ -43,11 +43,33 @@ describe('Helper', function () {
         filter2: 'someValues'
       }
 
-      queryBuilder = Helper.mapFiltersToQueryBuiler(inputFilters, queryBuilder)
+      queryBuilder = Helper.mapFiltersToQueryBuilder(inputFilters, queryBuilder)
       assert.deepStrictEqual(queryBuilder.setPriceRange.getCall(0).args, [1, 10])
       assert.deepStrictEqual(
         queryBuilder.setFilters.getCall(0).args,
         [{ filter2: 'someValues' }]
+      )
+    })
+
+    it('should map SALE category with filters to the query builder', () => {
+      let queryBuilder = {
+        setPriceRange: sinon.stub(),
+        setFilters: sinon.stub()
+      }
+      const inputFilters = {
+        'display_amount': {
+          minimum: 1,
+          maximum: 10
+        },
+        filter2: 'someValues'
+      }
+
+      // noinspection JSCheckFunctionSignatures
+      queryBuilder = Helper.mapFiltersToQueryBuilder(inputFilters, queryBuilder, 'SALE')
+      assert.deepStrictEqual(queryBuilder.setPriceRange.getCall(0).args, [1, 10])
+      assert.deepStrictEqual(
+        queryBuilder.setFilters.getCall(0).args,
+        [{ filter2: 'someValues', 'only_discounted': true }]
       )
     })
   })

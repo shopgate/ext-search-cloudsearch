@@ -58,7 +58,7 @@ module.exports = async (context, input) => {
     const category = await getCategory(context, input)
     const invoker = new Invoker(new Requester(context.config.cloudsearchUrls), context.log)
     let queryBuilder = new QueryBuilder(context.config.shopNumber, context.config.languageId)
-    queryBuilder = Helper.mapFiltersToQueryBuiler({}, queryBuilder)
+    queryBuilder = Helper.mapFiltersToQueryBuilder({}, queryBuilder)
     queryBuilder.addCategoryFilter(category.path)
     queryBuilder.setSort(sort)
     queryBuilder.setPagination(offset, limit)
