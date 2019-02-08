@@ -190,11 +190,18 @@ class Helper {
   /**
    * @param {object} inputFilters - 'urlencoded json array of objects {filterId1: {minimum: 10, maximum: 20}, filterId2: {values: [valId1, valId2], source: something}'
    * @param {QueryBuilder} queryBuilder
+   * @param {String} categoryPath path of category
    */
-  static mapFiltersToQueryBuiler (inputFilters, queryBuilder) {
+  static mapFiltersToQueryBuilder (inputFilters, queryBuilder, categoryPath = '') {
     const filters = {}
 
     inputFilters = inputFilters || {}
+
+    // Map category path to special discount filter
+    if (categoryPath === 'SALE') {
+      inputFilters['only_discounted'] = true
+    }
+
     for (const key in inputFilters) {
       const values = inputFilters[key]
       if (key === 'display_amount') { // we have price filter (the only one with a range)
@@ -203,6 +210,7 @@ class Helper {
         filters[key] = values
       }
     }
+
     queryBuilder.setFilters(filters)
     return queryBuilder
   }
