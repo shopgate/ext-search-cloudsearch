@@ -130,7 +130,7 @@
           }
         ],
         "output": [
-            {
+          {
             "id": "100",
             "key": "products"
           }
