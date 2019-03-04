@@ -1,9 +1,14 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
-
 ## [Unreleased]
-
 - updated query builder to behave same as in legacy CloudSearch implementation.
+
+## [1.0.2]
+### Added
+- "characteristics" input to conform with "getProducts*" pipelines from the catalog.
+
+## [1.0.1]
+- Automated Sale Category
+
+## [1.0.0]
+- Initial release
