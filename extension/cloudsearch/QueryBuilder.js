@@ -180,6 +180,14 @@ class QueryBuilder {
   }
 
   _addSortParams (params) {
+    // Allow custom sort keys for special adaptions.
+    // In order to keep backwards compatibility, it must be done this way.
+    if (this.sort.startsWith('custom*')) {
+      params.sort = this.sort.split('*')[1]
+
+      return
+    }
+
     switch (this.sort) {
       case 'priceAsc':
         params.sort = 'display_amount asc'
