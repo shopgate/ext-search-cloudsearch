@@ -46,6 +46,11 @@
       {
         "id": "750",
         "key": "sgxsMeta"
+      },
+      {
+        "id": "751",
+        "key": "characteristics",
+        "optional": true
       }
     ],
     "output": [
@@ -200,6 +205,11 @@
           {
             "id": "750",
             "key": "sgxsMeta"
+          },
+          {
+            "id": "751",
+            "key": "characteristics",
+            "optional": true
           }
         ],
         "output": [
