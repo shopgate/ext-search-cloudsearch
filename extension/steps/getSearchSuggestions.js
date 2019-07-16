@@ -57,8 +57,7 @@ module.exports = async (context, input) => {
   context.log.debug({ options }, 'sending cloudsearch request')
 
   const body = await context.tracedRequest(`Cloudsearch`)(options)
-  const suggestions = parseResult(suggestQuery, body).slice(0, LIMIT)
-  return { suggestions }
+  return { suggestions: parseResult(suggestQuery, body) }
 }
 
 function parseHighlight (suggestQuery, suggestionsWithCounts, highlight) {
