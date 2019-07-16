@@ -2,6 +2,8 @@ const xregexp = require('xregexp')
 const Requester = require('../cloudsearch/Requester')
 
 const TIMEOUT = 700 // 700ms timeout for cloudsearch (had some issued with 500)
+const LIMIT = 10
+const MIN_QUERY_LENGTH = 3
 const regexCleanRaw = '[^\\pN\\p{Ll}\\p{Lu}\\p{Lt}\\p{Lo}\\-\\.\\| ]'
 const regexClean = xregexp(regexCleanRaw, 'g')
 const multiWhitespaceRegex = /\s+/g
@@ -15,7 +17,7 @@ const highlightRegex = /\$start\$(\S+)\$end\$( ?[& ]*\S{4,})?( ?[& ]*\S{4,})?( ?
 const baseSearchParams = {
   'q.parser': 'structured',
   'q.options': { fields: ['name', 'child_names'] },
-  size: 100,
+  size: LIMIT,
   'highlight.name': { format: 'text', pre_tag: '$start$', post_tag: '$end$' },
   'highlight.child_names': { format: 'text', pre_tag: '$start$', post_tag: '$end$' },
   return: 'name,child_names'
@@ -35,7 +37,7 @@ const baseSearchParams = {
  * @param {Function} cb
  */
 module.exports = async (context, input) => {
-  if (input.searchPhrase.length < 2) return { suggestions: [] }
+  if (input.searchPhrase.length < MIN_QUERY_LENGTH) return { suggestions: [] }
 
   const requester = new Requester(context.config.cloudsearchUrls)
   const cloudsearchUrl = requester.getUrl(context.config.languageId)
@@ -46,13 +48,16 @@ module.exports = async (context, input) => {
     .replace(multiWhitespaceRegex, ' ')
     .trim()
     .toLowerCase()
+  if (suggestQuery.length < MIN_QUERY_LENGTH) {
+    return { suggestions: [] }
+  }
 
   const options = buildRequestOptions(suggestQuery, shopNumber, cloudsearchUrl)
 
   context.log.debug({ options }, 'sending cloudsearch request')
 
   const body = await context.tracedRequest(`Cloudsearch`)(options)
-  const suggestions = parseResult(suggestQuery, body).slice(0, 10)
+  const suggestions = parseResult(suggestQuery, body).slice(0, LIMIT)
   return { suggestions }
 }
 
