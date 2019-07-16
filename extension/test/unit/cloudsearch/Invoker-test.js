@@ -30,8 +30,8 @@ describe('cloudsearch/Invoker', function () {
     it('should search and respond', async () => {
       const response = { hits: { found: 10, hit: [{ fields: { uid: '123' } }] } }
       requester.request = async (query, lang) => {
-        assert.equal(query, 'term')
-        assert.equal(lang, 'de-de')
+        assert.strictEqual(query, 'term')
+        assert.strictEqual(lang, 'de-de')
         return response
       }
       const res = await invoker.search(queryBuilder)
@@ -53,7 +53,7 @@ describe('cloudsearch/Invoker', function () {
         productIds: ['123'],
         totalProductCount: 1
       }
-      assert.equal(requester.request.callCount, 2)
+      assert.strictEqual(requester.request.callCount, 2)
       assert.deepStrictEqual(res, expectedResponse)
       assert.deepStrictEqual(requester.request.getCall(0).args, ['term', 'de-de'])
       assert.deepStrictEqual(requester.request.getCall(1).args, ['term~2', 'de-de'])
@@ -70,7 +70,7 @@ describe('cloudsearch/Invoker', function () {
         productIds: [],
         totalProductCount: 0
       }
-      assert.equal(requester.request.callCount, 2)
+      assert.strictEqual(requester.request.callCount, 2)
       assert.deepStrictEqual(res, expectedResponse)
       assert.deepStrictEqual(requester.request.getCall(0).args, ['term', 'de-de'])
       assert.deepStrictEqual(requester.request.getCall(1).args, ['term~2', 'de-de'])
@@ -81,8 +81,8 @@ describe('cloudsearch/Invoker', function () {
     it('should get the filters', async () => {
       const response = { hits: { found: 1, hit: [{ fields: { uid: '123' } }] } }
       requester.request = async (query, lang) => {
-        assert.equal(query, 'pterm')
-        assert.equal(lang, 'de-de')
+        assert.strictEqual(query, 'pterm')
+        assert.strictEqual(lang, 'de-de')
         return response
       }
       invoker.responseParser.getFilterResponse = sinon.stub()
@@ -107,7 +107,7 @@ describe('cloudsearch/Invoker', function () {
 
       const res = await invoker.getFilters(queryBuilder)
 
-      assert.equal(requester.request.callCount, 2)
+      assert.strictEqual(requester.request.callCount, 2)
       assert.deepStrictEqual(res, { foo: 'test' })
       assert.deepStrictEqual(requester.request.getCall(0).args, ['pterm', 'de-de'])
       assert.deepStrictEqual(requester.request.getCall(1).args, ['pterm~2', 'de-de'])

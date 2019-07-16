@@ -4,17 +4,17 @@ const assert = require('assert')
 describe('cloudsearch/Filter', function () {
   it('should init filter', () => {
     const filter = new Filter('id', 'label', 'type', 'source')
-    assert.deepEqual(filter.id, 'id')
-    assert.deepEqual(filter.label, 'label')
-    assert.deepEqual(filter.type, 'type')
-    assert.deepEqual(filter.source, 'source')
+    assert.deepStrictEqual(filter.id, 'id')
+    assert.deepStrictEqual(filter.label, 'label')
+    assert.deepStrictEqual(filter.type, 'type')
+    assert.deepStrictEqual(filter.source, 'source')
   })
 
   it('should set the range', () => {
     const filter = new Filter('id', 'label', 'type', 'source')
     filter.setRange(1, 100)
-    assert.deepEqual(filter.minimum, 1)
-    assert.deepEqual(filter.maximum, 100)
+    assert.deepStrictEqual(filter.minimum, 1)
+    assert.deepStrictEqual(filter.maximum, 100)
   })
 
   it('should add values', () => {

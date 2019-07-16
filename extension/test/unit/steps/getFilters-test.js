@@ -43,7 +43,7 @@ describe('steps/getFilters', () => {
 
     const result = await getFilters(context, { categoryPath: 'Men=>' })
     assert.deepStrictEqual(result, { filters: { foo: 'bar' } })
-    assert.equal(MockInvoker.prototype.getFilters.callCount, 1)
+    assert.strictEqual(MockInvoker.prototype.getFilters.callCount, 1)
     assert.deepStrictEqual(
       MockQueryBuilder.prototype.addCategoryFilter.getCall(0).args,
       ['Men=>']
@@ -70,7 +70,7 @@ describe('steps/getFilters', () => {
 
     const result = await getFilters(context, { searchPhrase: 'Men' })
     assert.deepStrictEqual(result, { filters: { foo: 'bar' } })
-    assert.equal(MockInvoker.prototype.getFilters.callCount, 1)
+    assert.strictEqual(MockInvoker.prototype.getFilters.callCount, 1)
     assert.deepStrictEqual(
       MockQueryBuilder.prototype.setSearchTerm.getCall(0).args,
       ['Men']
@@ -99,8 +99,8 @@ describe('steps/getFilters', () => {
       assert.fail()
     } catch (err) {
       assert.ok(err)
-      assert.equal(err.code, 'EVALIDATION')
-      assert.equal(err.message, 'searchPhrase, filters or categoryId has to be set')
+      assert.strictEqual(err.code, 'EVALIDATION')
+      assert.strictEqual(err.message, 'searchPhrase, filters or categoryId has to be set')
     }
   })
 })

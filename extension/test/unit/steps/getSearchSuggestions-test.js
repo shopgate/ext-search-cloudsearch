@@ -45,10 +45,10 @@ describe('getSearchSuggestions', () => {
     const api = nock('http://cloudsearch.de')
       .get('/search')
       .query(qs => {
-        assert.deepEqual(qs, {
+        assert.deepStrictEqual(qs, {
           'q.parser': 'structured',
           'q.options': '{"fields":["name","child_names"]}',
-          size: '100',
+          size: '10',
           'highlight.name': '{"format":"text","pre_tag":"$start$","post_tag":"$end$"}',
           'highlight.child_names': '{"format":"text","pre_tag":"$start$","post_tag":"$end$"}',
           return: 'name,child_names',
@@ -62,7 +62,7 @@ describe('getSearchSuggestions', () => {
     const result = await step(context, input)
     api.done()
 
-    assert.deepEqual(result, { suggestions: [
+    assert.deepStrictEqual(result, { suggestions: [
       'highfooFoofoo',
       'highfooFoofoo something',
       'highfooFoofoo something like',
@@ -80,7 +80,7 @@ describe('getSearchSuggestions', () => {
 
     const result = await step(context, input)
     api.done()
-    assert.deepEqual(result, { suggestions: [] })
+    assert.deepStrictEqual(result, { suggestions: [] })
   })
 
   it('should return an empty array if there where no hit array', async () => {
@@ -91,7 +91,7 @@ describe('getSearchSuggestions', () => {
 
     const result = await step(context, input)
     api.done()
-    assert.deepEqual(result, { suggestions: [] })
+    assert.deepStrictEqual(result, { suggestions: [] })
   })
 
   it('should return an empty array if there where no hits object', async () => {
@@ -102,7 +102,7 @@ describe('getSearchSuggestions', () => {
 
     const result = await step(context, input)
     api.done()
-    assert.deepEqual(result, { suggestions: [] })
+    assert.deepStrictEqual(result, { suggestions: [] })
   })
 
   it('should return an empty array if there where no json aswer', async () => {
@@ -113,7 +113,7 @@ describe('getSearchSuggestions', () => {
 
     const result = await step(context, input)
     api.done()
-    assert.deepEqual(result, { suggestions: [] })
+    assert.deepStrictEqual(result, { suggestions: [] })
   })
 
   it('should throw an error if statusCode is != 200 and return rawBody if its no valid json', async () => {
@@ -126,7 +126,7 @@ describe('getSearchSuggestions', () => {
       await step(context, input)
       assert.fail()
     } catch (err) {
-      assert.equal(err.message, '500 - "something{"')
+      assert.strictEqual(err.message, '500 - "something{"')
     } finally {
       api.done()
     }
@@ -135,6 +135,6 @@ describe('getSearchSuggestions', () => {
   it('should return an empty array if searchPhrase.length < 2', async () => {
     input.searchPhrase = 'a'
     const res = await step(context, input)
-    assert.deepEqual(res, { suggestions: [] })
+    assert.deepStrictEqual(res, { suggestions: [] })
   })
 })

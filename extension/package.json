@@ -9,18 +9,18 @@
     "integration": "mocha --timeout 5000 --use_strict --recursive test/integration"
   },
   "devDependencies": {
-    "mocha": "^5.2.0",
-    "nock": "^10.0.2",
-    "nyc": "^14.1.0",
-    "proxyquire": "^2.1.0",
-    "sinon": "^7.1.1",
-    "standard": "^10.0.3"
+    "mocha": "^6.1.4",
+    "nock": "^10.0.6",
+    "nyc": "^14.1.1",
+    "proxyquire": "^2.1.1",
+    "sinon": "^7.3.2",
+    "standard": "^13.0.2"
   },
   "dependencies": {
     "hyphenation.de": "^0.2.1",
     "hypher": "^0.2.5",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.5",
-    "xregexp": "^4.2.0"
+    "request-promise-native": "^1.0.7",
+    "xregexp": "^4.2.4"
   }
 }

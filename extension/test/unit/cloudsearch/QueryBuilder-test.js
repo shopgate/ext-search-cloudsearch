@@ -14,9 +14,9 @@ describe('cloudsearch/QueryBuilder', function () {
       builder.addCategoryFilter('Category')
       builder.buildSearchQuery()
       const query = builder.buildSearchQuery(false, false)
-      assert.equal(query.fq, "(and shop_number:123 (or (prefix field=categories 'Category=>')(phrase field=categories 'Category')))")
-      assert.equal(query.q, 'matchall')
-      assert.equal(query.sort, '_score desc')
+      assert.strictEqual(query.fq, "(and shop_number:123 (or (prefix field=categories 'Category=>')(phrase field=categories 'Category')))")
+      assert.strictEqual(query.q, 'matchall')
+      assert.strictEqual(query.sort, '_score desc')
     })
 
     it('should build a complex query 1', () => {
@@ -31,22 +31,22 @@ describe('cloudsearch/QueryBuilder', function () {
       builder.setPriceRange(200, 1500).setPagination(2, 10).setSort('priceDesc').setFilters(filters).shopLanguage = LANG_DE
       const result = builder.setSearchTerm('ein qu3ery mit mehReren silben und trennstrich - 3 - ').buildSearchQuery()
 
-      assert.equal(result['q.parser'], 'structured')
-      assert.equal(result.start, 2)
-      assert.equal(result.size, 10)
-      assert.equal(typeof result['facet.attributes'], 'undefined')
-      assert.equal(typeof result['facet.options'], 'undefined')
-      assert.equal(typeof result['facet.properties'], 'undefined')
-      assert.equal(typeof result['facet.categories'], 'undefined')
-      assert.equal(typeof result['facet.manufacturer'], 'undefined')
-      assert.equal(typeof result['facet.display_amount'], 'undefined')
-      assert.equal(result.sort, 'display_amount desc')
-      assert.deepEqual(result['highlight.name'], { format: 'text', pre_tag: '$start$', post_tag: '$end$' })
-      assert.deepEqual(result['highlight.child_names'], { format: 'text', pre_tag: '$start$', post_tag: '$end$' })
-      assert.deepEqual(result['highlight.attributes_searchable'], { format: 'text', pre_tag: '$start$', post_tag: '$end$' })
+      assert.strictEqual(result['q.parser'], 'structured')
+      assert.strictEqual(result.start, 2)
+      assert.strictEqual(result.size, 10)
+      assert.strictEqual(typeof result['facet.attributes'], 'undefined')
+      assert.strictEqual(typeof result['facet.options'], 'undefined')
+      assert.strictEqual(typeof result['facet.properties'], 'undefined')
+      assert.strictEqual(typeof result['facet.categories'], 'undefined')
+      assert.strictEqual(typeof result['facet.manufacturer'], 'undefined')
+      assert.strictEqual(typeof result['facet.display_amount'], 'undefined')
+      assert.strictEqual(result.sort, 'display_amount desc')
+      assert.deepStrictEqual(result['highlight.name'], { format: 'text', pre_tag: '$start$', post_tag: '$end$' })
+      assert.deepStrictEqual(result['highlight.child_names'], { format: 'text', pre_tag: '$start$', post_tag: '$end$' })
+      assert.deepStrictEqual(result['highlight.attributes_searchable'], { format: 'text', pre_tag: '$start$', post_tag: '$end$' })
 
-      assert.equal(result.fq, '(and shop_number:123 discount:{1,} (or attributes:\'f4$fv$v6\' options:\'f4$fv$v6\' properties:\'f4$fv$v6\' attributes:\'f4$fv$v5\' options:\'f4$fv$v5\' properties:\'f4$fv$v5\') (or attributes:\'f3$fv$v4\' options:\'f3$fv$v4\' properties:\'f3$fv$v4\') (or attributes:\'f2$fv$v3\' options:\'f2$fv$v3\' properties:\'f2$fv$v3\') (or properties:\'f1$fv$v2\' properties:\'f1$fv$v1\') display_amount:[200,1500])')
-      assert.equal(result.q, "(or (and 'ein' 'qu' '3' 'ery' 'mit' 'meh' 're' 'ren' 'sil' 'ben' 'und' 'trenn' 'strich' '3') (and (prefix field='item_numbers' 'ein') (prefix field='item_numbers' 'qu') (prefix field='item_numbers' '3') (prefix field='item_numbers' 'ery') (prefix field='item_numbers' 'mit') (prefix field='item_numbers' 'meh') (prefix field='item_numbers' 're') (prefix field='item_numbers' 'ren') (prefix field='item_numbers' 'sil') (prefix field='item_numbers' 'ben') (prefix field='item_numbers' 'und') (prefix field='item_numbers' 'trenn') (prefix field='item_numbers' 'strich') (prefix field='item_numbers' '3')) (term boost=2 'ein qu3ery mit mehReren silben und trennstrich - 3') (prefix 'ein qu3ery mit mehReren silben und trennstrich - 3') (and (prefix field=name 'ein') (prefix field=name 'ery') (prefix field=name 'mit') (prefix field=name 'meh') (prefix field=name 'reren') (prefix field=name 'silben') (prefix field=name 'und') (prefix field=name 'trennstrich')) item_numbers:'ein qu3ery mit mehReren silben und trennstrich - 3')")
+      assert.strictEqual(result.fq, '(and shop_number:123 discount:{1,} (or attributes:\'f4$fv$v6\' options:\'f4$fv$v6\' properties:\'f4$fv$v6\' attributes:\'f4$fv$v5\' options:\'f4$fv$v5\' properties:\'f4$fv$v5\') (or attributes:\'f3$fv$v4\' options:\'f3$fv$v4\' properties:\'f3$fv$v4\') (or attributes:\'f2$fv$v3\' options:\'f2$fv$v3\' properties:\'f2$fv$v3\') (or properties:\'f1$fv$v2\' properties:\'f1$fv$v1\') display_amount:[200,1500])')
+      assert.strictEqual(result.q, "(or (and 'ein' 'qu' '3' 'ery' 'mit' 'meh' 're' 'ren' 'sil' 'ben' 'und' 'trenn' 'strich' '3') (and (prefix field='item_numbers' 'ein') (prefix field='item_numbers' 'qu') (prefix field='item_numbers' '3') (prefix field='item_numbers' 'ery') (prefix field='item_numbers' 'mit') (prefix field='item_numbers' 'meh') (prefix field='item_numbers' 're') (prefix field='item_numbers' 'ren') (prefix field='item_numbers' 'sil') (prefix field='item_numbers' 'ben') (prefix field='item_numbers' 'und') (prefix field='item_numbers' 'trenn') (prefix field='item_numbers' 'strich') (prefix field='item_numbers' '3')) (term boost=2 'ein qu3ery mit mehReren silben und trennstrich - 3') (prefix 'ein qu3ery mit mehReren silben und trennstrich - 3') (and (prefix field=name 'ein') (prefix field=name 'ery') (prefix field=name 'mit') (prefix field=name 'meh') (prefix field=name 'reren') (prefix field=name 'silben') (prefix field=name 'und') (prefix field=name 'trennstrich')) item_numbers:'ein qu3ery mit mehReren silben und trennstrich - 3')")
     })
 
     it('should build a complex query 2', () => {
@@ -60,26 +60,26 @@ describe('cloudsearch/QueryBuilder', function () {
       builder.setPriceRange(200, 1500).setPagination(0, 0).setSort('priceAsc').setFilters(filters).shopLanguage = LANG_DE
       const result = builder.setSearchTerm('ein qu3ery mit mehReren silben und trennstrich - 3 - ').buildSearchQuery()
 
-      assert.equal(result['q.parser'], 'structured')
-      assert.equal(typeof result.start, 'undefined')
-      assert.equal(result.size, 0)
-      assert.equal(result.sort, 'display_amount asc')
+      assert.strictEqual(result['q.parser'], 'structured')
+      assert.strictEqual(typeof result.start, 'undefined')
+      assert.strictEqual(result.size, 0)
+      assert.strictEqual(result.sort, 'display_amount asc')
 
-      assert.equal(result.fq, "(and shop_number:123 (or attributes:'f4$fv$v6' options:'f4$fv$v6' properties:'f4$fv$v6' attributes:'f4$fv$v5' options:'f4$fv$v5' properties:'f4$fv$v5') (or attributes:'f3$fv$v4' options:'f3$fv$v4' properties:'f3$fv$v4') (or attributes:'f2$fv$v3' options:'f2$fv$v3' properties:'f2$fv$v3') (or properties:'f1$fv$v2' properties:'f1$fv$v1') display_amount:[200,1500])")
-      assert.equal(result.q, "(or (and 'ein' 'qu' '3' 'ery' 'mit' 'meh' 're' 'ren' 'sil' 'ben' 'und' 'trenn' 'strich' '3') (and (prefix field='item_numbers' 'ein') (prefix field='item_numbers' 'qu') (prefix field='item_numbers' '3') (prefix field='item_numbers' 'ery') (prefix field='item_numbers' 'mit') (prefix field='item_numbers' 'meh') (prefix field='item_numbers' 're') (prefix field='item_numbers' 'ren') (prefix field='item_numbers' 'sil') (prefix field='item_numbers' 'ben') (prefix field='item_numbers' 'und') (prefix field='item_numbers' 'trenn') (prefix field='item_numbers' 'strich') (prefix field='item_numbers' '3')) (term boost=2 'ein qu3ery mit mehReren silben und trennstrich - 3') (prefix 'ein qu3ery mit mehReren silben und trennstrich - 3') (and (prefix field=name 'ein') (prefix field=name 'ery') (prefix field=name 'mit') (prefix field=name 'meh') (prefix field=name 'reren') (prefix field=name 'silben') (prefix field=name 'und') (prefix field=name 'trennstrich')) item_numbers:'ein qu3ery mit mehReren silben und trennstrich - 3')")
+      assert.strictEqual(result.fq, "(and shop_number:123 (or attributes:'f4$fv$v6' options:'f4$fv$v6' properties:'f4$fv$v6' attributes:'f4$fv$v5' options:'f4$fv$v5' properties:'f4$fv$v5') (or attributes:'f3$fv$v4' options:'f3$fv$v4' properties:'f3$fv$v4') (or attributes:'f2$fv$v3' options:'f2$fv$v3' properties:'f2$fv$v3') (or properties:'f1$fv$v2' properties:'f1$fv$v1') display_amount:[200,1500])")
+      assert.strictEqual(result.q, "(or (and 'ein' 'qu' '3' 'ery' 'mit' 'meh' 're' 'ren' 'sil' 'ben' 'und' 'trenn' 'strich' '3') (and (prefix field='item_numbers' 'ein') (prefix field='item_numbers' 'qu') (prefix field='item_numbers' '3') (prefix field='item_numbers' 'ery') (prefix field='item_numbers' 'mit') (prefix field='item_numbers' 'meh') (prefix field='item_numbers' 're') (prefix field='item_numbers' 'ren') (prefix field='item_numbers' 'sil') (prefix field='item_numbers' 'ben') (prefix field='item_numbers' 'und') (prefix field='item_numbers' 'trenn') (prefix field='item_numbers' 'strich') (prefix field='item_numbers' '3')) (term boost=2 'ein qu3ery mit mehReren silben und trennstrich - 3') (prefix 'ein qu3ery mit mehReren silben und trennstrich - 3') (and (prefix field=name 'ein') (prefix field=name 'ery') (prefix field=name 'mit') (prefix field=name 'meh') (prefix field=name 'reren') (prefix field=name 'silben') (prefix field=name 'und') (prefix field=name 'trennstrich')) item_numbers:'ein qu3ery mit mehReren silben und trennstrich - 3')")
     })
 
     it('should build a complex query 3 (fuzzy)', () => {
       builder.setPriceRange(200, 1500).setPagination(0, 0).setSort('random').shopLanguage = LANG_DE
       const result = builder.setSearchTerm('ein qu3ery mit mehReren silben und trennstrich').buildSearchQuery(true)
 
-      assert.equal(result['q.parser'], undefined)
-      assert.equal(typeof result.start, 'undefined')
-      assert.equal(result.size, 0)
-      assert.equal(result.sort, 'random desc')
+      assert.strictEqual(result['q.parser'], undefined)
+      assert.strictEqual(typeof result.start, 'undefined')
+      assert.strictEqual(result.size, 0)
+      assert.strictEqual(result.sort, 'random desc')
       assert.ok(result['expr.random'].match(/^sin\(_rand\*\d\d?\d?\)$/), `expr.random is ${result['expr.random']}`)
-      assert.equal(result.fq, '(and shop_number:123 display_amount:[200,1500])')
-      assert.equal(result.q, "ein qu3ery mit mehreren silben und trennstrich~2")
+      assert.strictEqual(result.fq, '(and shop_number:123 display_amount:[200,1500])')
+      assert.strictEqual(result.q, "ein qu3ery mit mehreren silben und trennstrich~2")
     })
 
     it('should build a complex query 4', () => {
@@ -94,13 +94,13 @@ describe('cloudsearch/QueryBuilder', function () {
       builder.setFilters(filters).shopLanguage = LANG_DE
       const result = builder.setSearchTerm('').buildSearchQuery()
 
-      assert.equal(result['q.parser'], 'structured')
-      assert.equal(typeof result['highlight.name'], 'undefined')
-      assert.equal(typeof result['highlight.child_names'], 'undefined')
-      assert.equal(typeof result['highlight.attributes_searchable'], 'undefined')
+      assert.strictEqual(result['q.parser'], 'structured')
+      assert.strictEqual(typeof result['highlight.name'], 'undefined')
+      assert.strictEqual(typeof result['highlight.child_names'], 'undefined')
+      assert.strictEqual(typeof result['highlight.attributes_searchable'], 'undefined')
 
-      assert.equal(result.fq, "(and shop_number:123 discount:{1,} (or attributes:'f4$fv$v6' options:'f4$fv$v6' properties:'f4$fv$v6' attributes:'f4$fv$v5' options:'f4$fv$v5' properties:'f4$fv$v5') (or attributes:'f3$fv$v4' options:'f3$fv$v4' properties:'f3$fv$v4') (or attributes:'f2$fv$v3' options:'f2$fv$v3' properties:'f2$fv$v3') (or properties:'f1$fv$v2' properties:'f1$fv$v1'))")
-      assert.equal(result.q, 'matchall')
+      assert.strictEqual(result.fq, "(and shop_number:123 discount:{1,} (or attributes:'f4$fv$v6' options:'f4$fv$v6' properties:'f4$fv$v6' attributes:'f4$fv$v5' options:'f4$fv$v5' properties:'f4$fv$v5') (or attributes:'f3$fv$v4' options:'f3$fv$v4' properties:'f3$fv$v4') (or attributes:'f2$fv$v3' options:'f2$fv$v3' properties:'f2$fv$v3') (or properties:'f1$fv$v2' properties:'f1$fv$v1'))")
+      assert.strictEqual(result.q, 'matchall')
     })
 
     it('should build a complex query 5', () => {
@@ -108,16 +108,16 @@ describe('cloudsearch/QueryBuilder', function () {
       builder.setFilters(filters)
       const result = builder.setSearchTerm('ein qu3ery mit mehReren silben und trennstrich - 3 - ').buildSearchQuery(false, true)
 
-      assert.deepEqual(result['facet.attributes'], { sort: 'bucket', size: 5000 })
-      assert.deepEqual(result['facet.options'], { sort: 'bucket', size: 5000 })
-      assert.deepEqual(result['facet.properties'], { sort: 'bucket', size: 5000 })
-      assert.equal(typeof result['facet.categories'], 'undefined')
-      assert.equal(typeof result['facet.manufacturer'], 'undefined')
-      assert.deepEqual(result['facet.display_amount'], { sort: 'bucket', size: 5000 })
-      assert.equal(result.sort, '_score desc')
+      assert.deepStrictEqual(result['facet.attributes'], { sort: 'bucket', size: 5000 })
+      assert.deepStrictEqual(result['facet.options'], { sort: 'bucket', size: 5000 })
+      assert.deepStrictEqual(result['facet.properties'], { sort: 'bucket', size: 5000 })
+      assert.strictEqual(typeof result['facet.categories'], 'undefined')
+      assert.strictEqual(typeof result['facet.manufacturer'], 'undefined')
+      assert.deepStrictEqual(result['facet.display_amount'], { sort: 'bucket', size: 5000 })
+      assert.strictEqual(result.sort, '_score desc')
 
-      assert.equal(result.fq, "(and shop_number:123 (or manufacturer:'m2' manufacturer:'m1') (or (or (prefix field=categories 'b2=>')(phrase field=categories 'b2')) (or (prefix field=categories 'a1=>')(phrase field=categories 'a1'))))")
-      assert.equal(result.q, "(or (and 'ein' 'qu' '3' 'ery' 'mit' 'meh' 'reren' 'silben' 'und' 'trennstrich' '3') (and (prefix field='item_numbers' 'ein') (prefix field='item_numbers' 'qu') (prefix field='item_numbers' '3') (prefix field='item_numbers' 'ery') (prefix field='item_numbers' 'mit') (prefix field='item_numbers' 'meh') (prefix field='item_numbers' 'reren') (prefix field='item_numbers' 'silben') (prefix field='item_numbers' 'und') (prefix field='item_numbers' 'trennstrich') (prefix field='item_numbers' '3')) (term boost=2 'ein qu3ery mit mehReren silben und trennstrich - 3') (prefix 'ein qu3ery mit mehReren silben und trennstrich - 3') (and (prefix field=name 'ein') (prefix field=name 'ery') (prefix field=name 'mit') (prefix field=name 'meh') (prefix field=name 'reren') (prefix field=name 'silben') (prefix field=name 'und') (prefix field=name 'trennstrich')) item_numbers:'ein qu3ery mit mehReren silben und trennstrich - 3')")
+      assert.strictEqual(result.fq, "(and shop_number:123 (or manufacturer:'m2' manufacturer:'m1') (or (or (prefix field=categories 'b2=>')(phrase field=categories 'b2')) (or (prefix field=categories 'a1=>')(phrase field=categories 'a1'))))")
+      assert.strictEqual(result.q, "(or (and 'ein' 'qu' '3' 'ery' 'mit' 'meh' 'reren' 'silben' 'und' 'trennstrich' '3') (and (prefix field='item_numbers' 'ein') (prefix field='item_numbers' 'qu') (prefix field='item_numbers' '3') (prefix field='item_numbers' 'ery') (prefix field='item_numbers' 'mit') (prefix field='item_numbers' 'meh') (prefix field='item_numbers' 'reren') (prefix field='item_numbers' 'silben') (prefix field='item_numbers' 'und') (prefix field='item_numbers' 'trennstrich') (prefix field='item_numbers' '3')) (term boost=2 'ein qu3ery mit mehReren silben und trennstrich - 3') (prefix 'ein qu3ery mit mehReren silben und trennstrich - 3') (and (prefix field=name 'ein') (prefix field=name 'ery') (prefix field=name 'mit') (prefix field=name 'meh') (prefix field=name 'reren') (prefix field=name 'silben') (prefix field=name 'und') (prefix field=name 'trennstrich')) item_numbers:'ein qu3ery mit mehReren silben und trennstrich - 3')")
     })
   })
 
@@ -133,7 +133,7 @@ describe('cloudsearch/QueryBuilder', function () {
     tests.forEach((test) => {
       it(`should normalize "${test[1]}" to "${test[0]}" in lang "${test[2]}"`, () => {
         builder.shopLanguage = test[2]
-        assert.equal(builder._normalizeSearchTerm(test[1]), test[0])
+        assert.strictEqual(builder._normalizeSearchTerm(test[1]), test[0])
       })
     })
   })
@@ -151,36 +151,36 @@ describe('cloudsearch/QueryBuilder', function () {
     tests.forEach((test) => {
       it(`should build search term for ${test[1]}: ${test[0]}`, (done) => {
         builder.shopLanguage = test[1]
-        assert.equal(builder._buildSearchTermQuery(test[0]), test[2])
+        assert.strictEqual(builder._buildSearchTermQuery(test[0]), test[2])
         done()
       })
     })
 
     it('should return the correct term for "produkt"', () => {
       const expected = "(or 'produkt' (prefix field='item_numbers' 'produkt') (prefix 'produkt') item_numbers:'produkt')"
-      assert.equal(builder._buildSearchTermQuery('produkt'), expected)
+      assert.strictEqual(builder._buildSearchTermQuery('produkt'), expected)
     })
   })
 
   describe('setupQueryParams', () => {
     it('should setup the correct params for an empty string', () => {
       const result = builder._setupQueryParams('')
-      assert.equal(result.q, 'matchall')
-      assert.equal(result['q.parser'], 'structured')
+      assert.strictEqual(result.q, 'matchall')
+      assert.strictEqual(result['q.parser'], 'structured')
     })
 
     it('should setup the correct params for "simple"', () => {
       const result = builder._setupQueryParams('simple')
-      assert.equal(result.q, 'simple')
-      assert.equal(typeof result['q.parser'], 'undefined')
+      assert.strictEqual(result.q, 'simple')
+      assert.strictEqual(typeof result['q.parser'], 'undefined')
     })
 
     it('should setup the correct params for "(and produkt)', () => {
       const result = builder.setPagination(3, 5)._setupQueryParams('(and produkt)')
-      assert.equal(result.q, '(and produkt)')
-      assert.equal(result.start, 3)
-      assert.equal(result.size, 5)
-      assert.equal(result.fq, 'shop_number:123')
+      assert.strictEqual(result.q, '(and produkt)')
+      assert.strictEqual(result.start, 3)
+      assert.strictEqual(result.size, 5)
+      assert.strictEqual(result.fq, 'shop_number:123')
     })
   })
 
@@ -195,7 +195,7 @@ describe('cloudsearch/QueryBuilder', function () {
     tests.forEach((test) => {
       it(`should return the correct string for min="${test[0]}" and max="${test[1]}"`, () => {
         const result = builder.setPriceRange(test[0], test[1])._buildSearchQueryForPriceFilter()
-        assert.equal(result, test[2])
+        assert.strictEqual(result, test[2])
       })
     })
   })
@@ -210,7 +210,7 @@ describe('cloudsearch/QueryBuilder', function () {
     tests.forEach((test) => {
       it(`should return the correct conjunction for "${JSON.stringify(test[0])}"`, () => {
         const result = builder._buildConjunction(test[0])
-        assert.equal(result, test[1])
+        assert.strictEqual(result, test[1])
       })
     })
   })
@@ -219,20 +219,20 @@ describe('cloudsearch/QueryBuilder', function () {
     it('should not reformat a correct filter', () => {
       const filters = { 'Facet Test': { values: ['Value 1', 'Value 2'], source: 'properties' } }
       const result = builder.setFilters(filters).filters
-      assert.deepEqual(result, filters)
+      assert.deepStrictEqual(result, filters)
     })
 
     it('should reformat a wrong formatted filter', () => {
       const filters = { 'Facet Test': 'Value 1' }
       const expected = { 'Facet Test': { values: ['Value 1'], source: 'Facet Test' } }
       const result = builder.setFilters(filters).filters
-      assert.deepEqual(result, expected)
+      assert.deepStrictEqual(result, expected)
     })
 
     it('should remove an empty formatted filter', () => {
       const filters = { 'Facet Test': [] }
       const result = builder.setFilters(filters).filters
-      assert.deepEqual(result, {})
+      assert.deepStrictEqual(result, {})
     })
   })
 
@@ -249,7 +249,7 @@ describe('cloudsearch/QueryBuilder', function () {
 
     tests.forEach((test) => {
       it(`should create the correct query for "${JSON.stringify(test[0])}"`, () => {
-        assert.equal(builder.setFilters(test[0])._buildSearchQueryForFilters(), test[1])
+        assert.strictEqual(builder.setFilters(test[0])._buildSearchQueryForFilters(), test[1])
       })
     })
   })
@@ -287,7 +287,7 @@ describe('cloudsearch/QueryBuilder', function () {
 
     tests.forEach((test, i) => {
       it(`should create the correct filter strings for test no ${i}`, () => {
-        assert.deepEqual(builder._getFilterStringsFromValues(test[0].key, test[0]), test[1])
+        assert.deepStrictEqual(builder._getFilterStringsFromValues(test[0].key, test[0]), test[1])
       })
     })
 
@@ -295,7 +295,7 @@ describe('cloudsearch/QueryBuilder', function () {
       it('should build the correct string for single category filter', () => {
         builder.addCategoryFilter('someCat')
         const query = builder.buildSearchQuery(false, true)
-        assert.deepEqual(query.fq, '(and shop_number:123 (or (prefix field=categories \'someCat=>\')(phrase field=categories \'someCat\')))')
+        assert.deepStrictEqual(query.fq, '(and shop_number:123 (or (prefix field=categories \'someCat=>\')(phrase field=categories \'someCat\')))')
       })
     })
   })
@@ -326,7 +326,7 @@ describe('cloudsearch/QueryBuilder', function () {
       builder.setFilters(filters)
 
       const query = builder.buildSearchQuery(false, true)
-      assert.deepEqual(query, expectedQuery)
+      assert.deepStrictEqual(query, expectedQuery)
     })
   })
 })

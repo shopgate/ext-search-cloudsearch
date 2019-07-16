@@ -35,7 +35,7 @@ describe('cloudsearch/Requester', function () {
       .reply(200, { a: 1, b: 2 })
 
     const result = await requester.request(queryParams, 'de-de')
-    assert.deepEqual(result, { a: 1, b: 2 })
+    assert.deepStrictEqual(result, { a: 1, b: 2 })
     api.done()
   })
 
@@ -62,7 +62,7 @@ describe('cloudsearch/Requester', function () {
       await requester.request({}, 'de-de')
     } catch (err) {
       assert.ok(err)
-      assert.equal(err.statusCode, 400)
+      assert.strictEqual(err.statusCode, 400)
       assert.deepStrictEqual(err.error, { 'foo': 'bar' })
       api.done()
     }
@@ -77,7 +77,7 @@ describe('cloudsearch/Requester', function () {
       await requester.request({}, 'fu')
     } catch (err) {
       assert.ok(err)
-      assert.equal(err.statusCode, 400)
+      assert.strictEqual(err.statusCode, 400)
       api.done()
     }
   })

@@ -47,7 +47,7 @@ describe('steps/getProductByFilter', () => {
     assert.deepStrictEqual(MockQueryBuilder.prototype.addCategoryFilter.getCall(0).args, ['Men=>'])
     assert.deepStrictEqual(MockQueryBuilder.prototype.setSort.getCall(0).args, ['priceAsc'])
     assert.deepStrictEqual(MockQueryBuilder.prototype.setPagination.getCall(0).args, [0, 20])
-    assert.equal(MockInvoker.prototype.search.callCount, 1)
+    assert.strictEqual(MockInvoker.prototype.search.callCount, 1)
 
     assert.deepStrictEqual(
       mockQueryBuilderConstructorArgs,
@@ -74,7 +74,7 @@ describe('steps/getProductByFilter', () => {
     assert.deepStrictEqual(MockQueryBuilder.prototype.addCategoryFilter.getCall(0).args, ['Men=>'])
     assert.deepStrictEqual(MockQueryBuilder.prototype.setSort.getCall(0).args, ['relevance'])
     assert.deepStrictEqual(MockQueryBuilder.prototype.setPagination.getCall(0).args, [10, 30])
-    assert.equal(MockInvoker.prototype.search.callCount, 1)
+    assert.strictEqual(MockInvoker.prototype.search.callCount, 1)
 
     assert.deepStrictEqual(
       mockQueryBuilderConstructorArgs,
@@ -100,8 +100,8 @@ describe('steps/getProductByFilter', () => {
       assert.fail()
     } catch (err) {
       assert.ok(err)
-      assert.equal(err.code, 'EVALIDATION')
-      assert.equal(err.message, 'The limit can\'t be greater than 100')
+      assert.strictEqual(err.code, 'EVALIDATION')
+      assert.strictEqual(err.message, 'The limit can\'t be greater than 100')
     }
   })
 })
