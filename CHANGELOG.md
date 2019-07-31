@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [1.1.3]
 ### Fixed
-- suggestions: reverting back to fetching 100 results even though we're only returning 10 (fetching 10 altered the end result due to some weird logic in the extension)
+- suggestions: reverting back to fetching 100 results even though we're only returning 10 (fetching 10 altered the end result)
 - suggestions: filtering out unwanted "$start$" and "$end" marks
 
 ## [1.1.2]
