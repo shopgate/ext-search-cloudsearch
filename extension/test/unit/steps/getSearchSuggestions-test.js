@@ -48,7 +48,7 @@ describe('getSearchSuggestions', () => {
         assert.deepStrictEqual(qs, {
           'q.parser': 'structured',
           'q.options': '{"fields":["name","child_names"]}',
-          size: '10',
+          size: '100',
           'highlight.name': '{"format":"text","pre_tag":"$start$","post_tag":"$end$"}',
           'highlight.child_names': '{"format":"text","pre_tag":"$start$","post_tag":"$end$"}',
           return: 'name,child_names',
