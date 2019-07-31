@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.3]
+### Fixed
+- suggestions: reverting back to fetching 100 results even though we're only returning 10 (fetching 10 altered the end result due to some weird logic in the extension)
+- suggestions: filtering out unwanted "$start$" and "$end" marks
+
 ## [1.1.2]
 ### Fixed
 - increased the minimal query length for suggestions from 2 to 3 and checking it again AFTER removing invalid characters
