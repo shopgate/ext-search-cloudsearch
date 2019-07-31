@@ -135,10 +135,7 @@ function addSuggestion (suggestQuery, target, matches) {
   let suggestion = matches.join('')
 
   // Make sure to remove all highlight and child_name sequences (like '$start$' or '$id123id$')
-  suggestion = suggestion
-    .replace('$start$', '')
-    .replace('$end$', '')
-    .replace(/\$S+?\$/g, '').trim()
+  suggestion = suggestion.replace(/\$\S+?\$/g, '').trim()
 
   // Skip suggestion if it is shorter than query
   if (suggestion.length < suggestQuery.length) return
