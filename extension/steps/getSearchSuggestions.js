@@ -2,7 +2,6 @@ const xregexp = require('xregexp')
 const Requester = require('../cloudsearch/Requester')
 
 const TIMEOUT = 700 // 700ms timeout for cloudsearch (had some issued with 500)
-const LIMIT = 10
 const MIN_QUERY_LENGTH = 3
 const regexCleanRaw = '[^\\pN\\p{Ll}\\p{Lu}\\p{Lt}\\p{Lo}\\-\\.\\| ]'
 const regexClean = xregexp(regexCleanRaw, 'g')
@@ -17,7 +16,7 @@ const highlightRegex = /\$start\$(\S+)\$end\$( ?[& ]*\S{4,})?( ?[& ]*\S{4,})?( ?
 const baseSearchParams = {
   'q.parser': 'structured',
   'q.options': { fields: ['name', 'child_names'] },
-  size: LIMIT,
+  size: 100, // We could just fetch 10, but due to some logic below that would alter the end result.
   'highlight.name': { format: 'text', pre_tag: '$start$', post_tag: '$end$' },
   'highlight.child_names': { format: 'text', pre_tag: '$start$', post_tag: '$end$' },
   return: 'name,child_names'
@@ -57,7 +56,7 @@ module.exports = async (context, input) => {
   context.log.debug({ options }, 'sending cloudsearch request')
 
   const body = await context.tracedRequest(`Cloudsearch`)(options)
-  return { suggestions: parseResult(suggestQuery, body) }
+  return { suggestions: parseResult(suggestQuery, body).slice(0, 10) }
 }
 
 function parseHighlight (suggestQuery, suggestionsWithCounts, highlight) {
@@ -136,7 +135,10 @@ function addSuggestion (suggestQuery, target, matches) {
   let suggestion = matches.join('')
 
   // Make sure to remove all highlight and child_name sequences (like '$start$' or '$id123id$')
-  suggestion = suggestion.replace(/\$S+?\$/g, '').trim()
+  suggestion = suggestion
+    .replace('$start$', '')
+    .replace('$end$', '')
+    .replace(/\$S+?\$/g, '').trim()
 
   // Skip suggestion if it is shorter than query
   if (suggestion.length < suggestQuery.length) return
