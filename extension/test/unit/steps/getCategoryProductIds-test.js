@@ -14,7 +14,7 @@ describe('steps/getCategoryProductIds', async () => {
   const QueryBuilderMock = sinon.stub()
   const RequesterMock = sinon.stub()
   const HelperMock = {
-    mapFiltersToQueryBuiler: sinon.stub()
+    mapFiltersToQueryBuilder: sinon.stub()
   }
   const getCategoryProductIds = proxyquire('../../../steps/getCategoryProductIds.js', {
     'request-promise-native': RequestMock,
@@ -69,14 +69,14 @@ describe('steps/getCategoryProductIds', async () => {
       setSort: sinon.stub(),
       setPagination: sinon.stub()
     }
-    HelperMock.mapFiltersToQueryBuiler.returns(queryBuilderMock)
+    HelperMock.mapFiltersToQueryBuilder.returns(queryBuilderMock)
 
     const result = await getCategoryProductIds(context, { categoryId: 'men', sort: 'priceAsc' })
 
     sinon.assert.calledWithNew(TokenHandlerMock)
     sinon.assert.calledWithNew(InvokerMock)
     sinon.assert.calledWithNew(QueryBuilderMock)
-    sinon.assert.calledOnce(HelperMock.mapFiltersToQueryBuiler)
+    sinon.assert.calledOnce(HelperMock.mapFiltersToQueryBuilder)
     sinon.assert.calledOnce(queryBuilderMock.addCategoryFilter)
     sinon.assert.calledOnce(queryBuilderMock.setSort)
     sinon.assert.calledOnce(queryBuilderMock.setPagination)

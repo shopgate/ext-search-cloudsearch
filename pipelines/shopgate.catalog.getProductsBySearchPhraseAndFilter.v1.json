@@ -69,75 +69,31 @@
     ],
     "steps": [
       {
-        "id": "@shopgate/products",
-        "path": "@shopgate/products/categories/getCategory.js",
-        "type": "extension",
-        "input": [
-          {
-            "id": "5",
-            "key": "categoryId",
-            "optional": true
-          }
+        "type": "staticValue",
+        "input": [],
+        "values": [
+          {"key": "categoryPath", "value": ""}
         ],
         "output": [
-          {
-            "id": "10",
-            "key": "service"
-          },
-          {
-            "id": "11",
-            "key": "version"
-          },
-          {
-            "id": "12",
-            "key": "path"
-          },
-          {
-            "id": "13",
-            "key": "method"
-          }
+          {"key": "categoryPath", "id": "1000"}
         ]
       },
       {
         "type": "conditional",
         "input": [
-          {
-            "id": "5",
-            "key": "categoryId",
-            "optional": true
-          }
+          {"id": "5","key": "categoryId","optional": true}
         ],
         "expression": {
           "ok": [{ "name": "categoryId" }]
         },
         "then": {
-          "id": "@shopgate/bigapi",
-          "path": "@shopgate/bigapi/big-api/getBigApiResult.js",
-          "type": "extension",
+          "type": "pipeline",
+          "id": "shopgate.catalog.getCategory.v1",
           "input": [
-            {
-              "id": "10",
-              "key": "service"
-            },
-            {
-              "id": "11",
-              "key": "version"
-            },
-            {
-              "id": "12",
-              "key": "path"
-            },
-            {
-              "id": "13",
-              "key": "method"
-            }
+            {"id": "5", "key": "categoryId", "optional": true}
           ],
           "output": [
-            {
-              "id": "1000",
-              "key": "path",
-              "optional": true
-            }
+            {"id": "1000", "key": "path", "optional": true}
           ]
         }
       },

@@ -19,7 +19,7 @@ describe('steps/search', () => {
     MockQueryBuilder = class {
       constructor (...args) { mockQueryBuilderConstructorArgs = args }
     }
-    Helper = { mapFiltersToQueryBuiler: (filters, queryBuilder) => queryBuilder }
+    Helper = { mapFiltersToQueryBuilder: (filters, queryBuilder) => queryBuilder }
     search = proxyquire('../../../steps/search.js', {
       '../cloudsearch/QueryBuilder': MockQueryBuilder,
       '../cloudsearch/Requester': MockRequester,
