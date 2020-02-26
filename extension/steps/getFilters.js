@@ -20,10 +20,10 @@ module.exports = async (context, input) => {
   if (searchPhrase) queryBuilder.setSearchTerm(searchPhrase)
 
   // add filters
-  queryBuilder = Helper.mapFiltersToQueryBuiler(filters, queryBuilder)
+  queryBuilder = Helper.mapFiltersToQueryBuilder(filters, queryBuilder, categoryPath)
 
   // add category
-  if (categoryPath) queryBuilder.addCategoryFilter(categoryPath)
+  if (categoryPath && categoryPath !== 'SALE') queryBuilder.addCategoryFilter(categoryPath)
 
   const newFilters = await invoker.getFilters(queryBuilder)
   return { filters: newFilters }

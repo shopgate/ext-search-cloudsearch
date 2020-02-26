@@ -14,8 +14,8 @@ module.exports = async (context, input) => {
 
   const invoker = new Invoker(new Requester(context.config.cloudsearchUrls), context.log)
   let queryBuilder = new QueryBuilder(context.config.shopNumber, context.config.languageId)
-  queryBuilder = Helper.mapFiltersToQueryBuiler(filters, queryBuilder)
-  if (categoryPath) queryBuilder.addCategoryFilter(categoryPath)
+  queryBuilder = Helper.mapFiltersToQueryBuilder(filters, queryBuilder, categoryPath)
+  if (categoryPath && categoryPath !== 'SALE') queryBuilder.addCategoryFilter(categoryPath)
 
   queryBuilder.setSearchTerm(input.searchPhrase)
   queryBuilder.setSort(sort)
