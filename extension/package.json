@@ -7,7 +7,9 @@
     "test": "mocha --recursive test/unit",
     "cover": "nyc --reporter=html mocha --recursive test/unit",
     "integration": "mocha --timeout 5000 --use_strict --recursive test/integration",
-    "standard": "standard"
+    "standard": "standard",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "mocha": "^6.1.4",
@@ -22,6 +24,8 @@
     "hypher": "^0.2.5",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "xregexp": "^4.2.4"
-  }
+    "xregexp": "^4.2.4",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
