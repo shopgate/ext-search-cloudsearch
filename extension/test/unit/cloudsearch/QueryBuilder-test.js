@@ -3,10 +3,21 @@ const LANG_DE = QueryBuilder.LANG_DE
 const assert = require('assert')
 
 describe('cloudsearch/QueryBuilder', function () {
+  const config = {
+    shopNumber: '123',
+    languageId: 'en-en',
+    sortExpressions: null
+  }
+  const configWithExpressions = {
+    ...config,
+    sortExpressions: {
+      rankOrScore: 'rank||_score'
+    }
+  }
   let builder
 
   beforeEach(() => {
-    builder = new QueryBuilder('123', 'en-en')
+    builder = new QueryBuilder(config)
   })
 
   describe('buildSearchQuery', () => {
@@ -302,6 +313,8 @@ describe('cloudsearch/QueryBuilder', function () {
 
   describe('Full tests', () => {
     it('should build the correct query for filters of a category', () => {
+      builder = new QueryBuilder(configWithExpressions)
+
       const expectedQuery = {
         return: 'uid',
         'q.options': {
@@ -319,11 +332,13 @@ describe('cloudsearch/QueryBuilder', function () {
         'facet.properties': { sort: 'bucket', size: 5000 },
         'facet.manufacturer': { sort: 'bucket', size: 5000 },
         'facet.display_amount': { sort: 'bucket', size: 5000 },
-        sort: '_score desc'
+        'expr.rankOrScore': 'rank||_score',
+        sort: 'rankOrScore asc'
       }
 
       const filters = { categories: ['4 - Sortierung/Filter'] }
       builder.setFilters(filters)
+      builder.setSort('custom*rankOrScore asc')
 
       const query = builder.buildSearchQuery(false, true)
       assert.deepStrictEqual(query, expectedQuery)

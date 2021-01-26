@@ -14,7 +14,7 @@ module.exports = async (context, input) => {
   }
 
   const invoker = new Invoker(new Requester(context.config.cloudsearchUrls), context.log)
-  let queryBuilder = new QueryBuilder(context.config.shopNumber, context.config.languageId)
+  let queryBuilder = new QueryBuilder(context.config)
 
   // add search phrase if set
   if (searchPhrase) queryBuilder.setSearchTerm(searchPhrase)

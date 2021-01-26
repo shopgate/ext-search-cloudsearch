@@ -10,7 +10,7 @@ module.exports = async (context, { searchPhrase, sort = 'relevance', offset = 0,
   }
 
   const invoker = new Invoker(new Requester(context.config.cloudsearchUrls), context.log)
-  const queryBuilder = new QueryBuilder(context.config.shopNumber, context.config.languageId)
+  const queryBuilder = new QueryBuilder(context.config)
   queryBuilder.setSearchTerm(searchPhrase)
   queryBuilder.setSort(sort)
   queryBuilder.setPagination(offset, limit)

@@ -1,6 +1,8 @@
 root: true
 extends:
   - standard
+parserOptions:
+  ecmaVersion: 9
 env:
   node: true
   mocha: true

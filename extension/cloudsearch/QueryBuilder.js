@@ -35,9 +35,10 @@ const SORT_RANDOM = 4
 const LANG_DE = 'de-de'
 
 class QueryBuilder {
-  constructor (shopNumber, shopLanguage) {
-    this.shopNumber = shopNumber
-    this.shopLanguage = shopLanguage
+  constructor (config) {
+    this.shopNumber = config.shopNumber
+    this.shopLanguage = config.shopLanguage
+    this.sortExpressions = config.sortExpressions
     this.searchTerm = null
     this.priceRange = null
     this.offset = 0
@@ -357,6 +358,12 @@ class QueryBuilder {
 
     if (this.offset) params.start = this.offset
     params.size = this.limit
+
+    if (this.sortExpressions && Object.keys(this.sortExpressions).length) {
+      Object.keys(this.sortExpressions).forEach(key => {
+        params[`expr.${key}`] = this.sortExpressions[key]
+      })
+    }
 
     return params
   }

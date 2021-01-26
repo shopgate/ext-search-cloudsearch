@@ -50,7 +50,7 @@ describe('steps/getFilters', () => {
     )
     assert.deepStrictEqual(
       mockQueryBuilderConstructorArgs,
-      [context.config.shopNumber, context.config.languageId]
+      [context.config]
     )
     assert.deepStrictEqual(
       mockRequesterConstructorArgs,
@@ -77,7 +77,7 @@ describe('steps/getFilters', () => {
     )
     assert.deepStrictEqual(
       mockQueryBuilderConstructorArgs,
-      [context.config.shopNumber, context.config.languageId]
+      [context.config]
     )
     assert.deepStrictEqual(
       mockRequesterConstructorArgs,
